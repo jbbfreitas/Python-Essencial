@@ -14,7 +14,6 @@ Saiba mais sobre o uso do Python em Data Science  em http://www.cienciaedados.co
 
 2. Baixe o Anaconda (Gerenciador de Pacotes para aplicações Python) de acordo com o seu sistema operacionalÀs. Atenção: para falarmos a mesma linguagem baixe a versão 2.7 do Python. Para baixar clique (aqui)[https://www.anaconda.com/products/individual]
 
-
 <p align="center">
   <img src="../imagens/Anaconda.png" alt="Instalação do Anaconda">
 </p>
