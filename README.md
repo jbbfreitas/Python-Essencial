@@ -20,3 +20,13 @@ Saiba mais sobre o uso do [Python em Data Science](http://www.cienciaedados.com/
 <p align="center">
    <strong>Figura 1-Instalação do Anaconda</strong> 
 </p>
+
+3. Testando o ambiente
+Se você instalou corretamente o Anaconda inicie o Anaconda Navigator, e uma janela semelhante a da Figura 2 deverá aparecer para você.
+
+<p align="center">
+  <img src="imagens/AnacondaNavigator2.png" alt="Anaconda Navigator">
+</p>
+<p align="center">
+   <strong>Figura 2-Anaconda Navigator</strong> 
+</p>
