@@ -16,7 +16,7 @@ Saiba mais sobre o uso do Python em Data Science  em http://www.cienciaedados.co
 
 
 <p align="center">
-  <img src="../Imagens/Anaconda.png" alt="Instalação do Anaconda">
+  <img src="../imagens/Anaconda.png" alt="Instalação do Anaconda">
 </p>
 <p align="center">
    <strong>Figura 1-Instalação do Anaconda</strong> 
