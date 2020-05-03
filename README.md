@@ -30,3 +30,5 @@ Se você instalou corretamente o Anaconda inicie o Anaconda Navigator, e uma jan
 <p align="center">
    <strong>Figura 2-Anaconda Navigator</strong> 
 </p>
+
+Por hoje é só. Até a [Próxima Aula](Aula2.md)
