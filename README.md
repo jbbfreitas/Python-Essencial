@@ -25,7 +25,7 @@ Saiba mais sobre o uso do [Python em Data Science](http://www.cienciaedados.com/
 Se você instalou corretamente o Anaconda inicie o Anaconda Navigator, e uma janela semelhante a da Figura 2 deverá aparecer para você.
 
 <p align="center">
-  <img src="imagens/AnacondaNavigator2.png" alt="Anaconda Navigator">
+  <img src="imagens/AnacondaNavigator.png" alt="Anaconda Navigator">
 </p>
 <p align="center">
    <strong>Figura 2-Anaconda Navigator</strong> 
