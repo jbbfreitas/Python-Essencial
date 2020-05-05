@@ -56,4 +56,11 @@
    <strong>Figura 5-Renomeando um Notebook</strong> 
 </p>
 
-8. Pronto. Criamos nosso primeiro notebook. Agora é só começar a brincadeira!
+8. Veja a Figura 6. Você está pronto para começar a brincadeira!
+
+<p align="center">
+  <img src="imagens/Jupyter_Aula2.png" alt="Notebook Aula 2">
+</p>
+<p align="center">
+   <strong>Figura 6-Notebook Aula 2</strong> 
+</p>
