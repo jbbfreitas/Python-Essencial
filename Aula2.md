@@ -64,3 +64,24 @@
 <p align="center">
    <strong>Figura 6-Notebook Aula 2</strong> 
 </p>
+
+9. Digite na célula:
+
+```python 
+import sys
+print sys.version
+```
+
+10. Clique sobre a célula e, em seguida, clique `CTRL + ENTER`. Você deverá ver o resultado, conforme Figura 7.
+
+
+<p align="center">
+  <img src="imagens/Jupyter_Aula_Resultado.png" alt="Resultado da primeira célula da Aula 2">
+</p>
+<p align="center">
+   <strong>Figura 7-Resultado da primeira célula da Aula 2</strong> 
+</p>
+
+
+
+
