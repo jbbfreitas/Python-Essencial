@@ -76,7 +76,7 @@ print sys.version
 
 
 <p align="center">
-  <img src="imagens/Jupyter_Aula_Resultado.png" alt="Resultado da primeira célula da Aula 2">
+  <img src="imagens/Jupyter_Aula2_Resultado.png" alt="Resultado da primeira célula da Aula 2">
 </p>
 <p align="center">
    <strong>Figura 7-Resultado da primeira célula da Aula 2</strong> 
