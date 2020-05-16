@@ -9,10 +9,12 @@ As linhas em  Python  podem continuar nas linhas seguintes, pelo uso do caracter
 - Exemplo 1 - Continuação usando barra invertida:
 
 ```python 
+#Exemplo-1
 a="Python é uma linguagem interpretada e "\
   "muito poderosa"
    
 print a    
+
 ```
 
 ```
@@ -26,6 +28,7 @@ Python é uma linguagem interpretada e muito poderosa
 - Exemplo 2 - Continuação usando colchete e parênteses:
 
 ```python 
+#Exemplo-2
 a = [1,2,3,4]+[
     10,20,30]
 
@@ -46,10 +49,41 @@ A variável 'b' é o resultado de uma expressão e vale 50
 Em toda linguagem de programação os comentários servem para documentar o que está sendo realizado.
 Há duas formas de fazer comentário em Python
 
-- Comentário de linha, usando `#`
+- Comentário de linha usando `#`
 
-- Comentário de múltiplas linhas Usando '''   '''
+- Comentário de múltiplas linhas Usando `'''`   `'''`
 
+- Exemplo 3 - Comentário de uma única linha
+
+```python 
+#Exemplo-3
+#Vamos fazer uma iteração em uma lista
+lista = [1,2,3,4,5] #Uma lista de números inteiros
+for x in lista:
+    print x
+```
+
+```
+1
+2
+3
+4
+5
+```
+
+```python
+#Exemplo-4
+'''
+Este é um comentário de múltiplas linhas
+Serve para documentar a rotina
+Estas linhas serão ignoradas pelo interpretador
+'''
+
+```
+
+
+
+    
 
 
 
