@@ -21,10 +21,6 @@ print a
 Python é uma linguagem interpretada e muito poderosa
 ```
 
-
-
-
-
 - Exemplo 2 - Continuação usando colchete e parênteses:
 
 ```python 
@@ -81,15 +77,11 @@ Estas linhas serão ignoradas pelo interpretador
 
 ```
 
+3. Comentários Funcionais
 
-
-    
-
-
-
-O caractere # marca o inicio de comentário. Qualquer texto depois do # será ignorado até o fim da linha , com exceção dos comentários funcionais.
 Comentários funcionais geralmente são usados para:
-▪ alterar a codificação do arquivo fonte do programa acrescentando um comentário
+- ▪ alterar a codificação do arquivo fonte do programa acrescentando um comentário
 com o texto “#-*- coding: <encoding> -*#-” no inicio do arquivo, aonde <encoding> é a codificação do arquivo (geralmente latin1 ou utf-8). Alterar a codificação é necessário para suportar caracteres que não fazem parte da linguagem inglesa, no código fonte do programa.
-▪ definir o interpretador que será utilizado para rodar o programa em sistemas UNIX, através de um comentário começando com “#!” no inicio do arquivo, que indica o caminho para o interpretador (geralmente a linha de comentário será algo como “#!/usr/bin/env python”).
+- ▪ definir o interpretador que será utilizado para rodar o programa em sistemas UNIX, através de um comentário começando com “#!” no inicio do arquivo, que indica o caminho para o interpretador (geralmente a linha de comentário será algo como “#!/usr/bin/env python”).
+
 Exemplo de comentários funcionais:
