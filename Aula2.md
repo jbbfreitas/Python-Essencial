@@ -82,7 +82,7 @@ print sys.version
    <strong>Figura 7-Resultado da primeira célula da Aula 2</strong> 
 </p>
 
-
+Por hoje é só. Até a [Próxima Aula](Aula3.md)
 
 
 
