@@ -36,8 +36,8 @@ print "A variável 'b' é o resultado de uma expressão e vale {}".format(b)
 ```
 
 ```
-A variável 'a' é o resultado da soma de duas listas e vale [1, 2, 3, 4, 10, 20, 30]
-A variável 'b' é o resultado de uma expressão e vale 50
+> A variável 'a' é o resultado da soma de duas listas e vale [1, 2, 3, 4, 10, 20, 30]
+> A variável 'b' é o resultado de uma expressão e vale 50
 ```
 
 
