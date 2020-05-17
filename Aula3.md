@@ -106,7 +106,8 @@ print c
    <strong>Figura 1-Blocos de Código</strong> 
 </p>
 
-Conforme você pode observar na Figura 1, o `:` determina o ínicio de um bloco. As instruções que estão dentro de um bloco devem, obrigatoriamente, estar recuadas (com tab).
+Conforme você pode observar na Figura 1, o sinal de `:` determina o ínicio de um bloco. As instruções que estão dentro de um bloco devem, obrigatoriamente, estar recuadas (com tab).
+Para aninhar um bloco dentro de outro bloco, basta fazer novo recuo. 
 
 Vamos mostrar isso com um exemplo.
 
@@ -120,3 +121,4 @@ for i in [30, 60, 90, 120, 172]:
     else:
         print i,'Não é divisível por 3'
 ```
+Por hoje é só. Até a [Próxima Aula](Aula4.md)
