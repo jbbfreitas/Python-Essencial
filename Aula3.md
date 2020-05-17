@@ -106,3 +106,17 @@ print c
    <strong>Figura 1-Blocos de Código</strong> 
 </p>
 
+Conforme você pode observar na Figura 1, o `:` determina o ínicio de um bloco. As instruções que estão dentro de um bloco devem, obrigatoriamente, estar recuadas (com tab).
+
+Vamos mostrar isso com um exemplo.
+
+```python
+#Exemplo-6 - Blocos de código
+# Para i na lista 30, 60, 90, 120, 171:
+for i in [30, 60, 90, 120, 172]:
+# Se o resto dividindo por 3 for igual a zero:
+    if i % 3 == 0: # Imprime...
+        print i, '/ 3 =', i / 3
+    else:
+        print i,'Não é divisível por 3'
+```
