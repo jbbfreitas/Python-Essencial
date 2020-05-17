@@ -52,7 +52,7 @@ Há duas formas de fazer comentário em Python
 - Exemplo 3 - Comentário de uma única linha
 
 ```python 
-#Exemplo-3
+#Exemplo-3 - Comentário de uma única linha
 #Vamos fazer uma iteração em uma lista
 lista = [1,2,3,4,5] #Uma lista de números inteiros
 for x in lista:
@@ -68,7 +68,7 @@ for x in lista:
 ```
 
 ```python
-#Exemplo-4
+#Exemplo-4 - Comentário de múltiplas linhas
 '''
 Este é um comentário de múltiplas linhas
 Serve para documentar a rotina
@@ -80,8 +80,29 @@ Estas linhas serão ignoradas pelo interpretador
 3. Comentários Funcionais
 
 Comentários funcionais geralmente são usados para:
-- ▪ alterar a codificação do arquivo fonte do programa acrescentando um comentário
+- alterar a codificação do arquivo fonte do programa acrescentando um comentário
 com o texto “#-*- coding: <encoding> -*#-” no inicio do arquivo, aonde <encoding> é a codificação do arquivo (geralmente latin1 ou utf-8). Alterar a codificação é necessário para suportar caracteres que não fazem parte da linguagem inglesa, no código fonte do programa.
-- ▪ definir o interpretador que será utilizado para rodar o programa em sistemas UNIX, através de um comentário começando com “#!” no inicio do arquivo, que indica o caminho para o interpretador (geralmente a linha de comentário será algo como “#!/usr/bin/env python”).
+- definir o interpretador que será utilizado para rodar o programa em sistemas UNIX, através de um comentário começando com “#!” no inicio do arquivo, que indica o caminho para o interpretador (geralmente a linha de comentário será algo como “#!/usr/bin/env python”).
 
 Exemplo de comentários funcionais:
+
+```python
+#Exemplo-5 - Comentários funcionais
+
+#!/usr/bin/env python 
+# -*- coding: latin1 -*-
+# Uma chamada de função (quebrada por vírgula)
+c = range(1, 
+          11)
+print c
+```
+
+4. Blocos de código
+
+<p align="center">
+  <img src="imagens/Bloco_Codigo.png" alt="Blocos de Código">
+</p>
+<p align="center">
+   <strong>Figura 1-Blocos de Código</strong> 
+</p>
+
