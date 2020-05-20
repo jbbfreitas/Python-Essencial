@@ -11,7 +11,7 @@ Cada vez que as instruções do bloco é executada diz-se que foi realizado um c
 
 Vou mostrar duas estruturas de repetição do Python: `while` e `for`
 
-1. # while
+### 1. while
 
 A estrutrua `while` (enquanto em inglês) é utilizada para repetir um bloco de instruções **enquanto** um condição for válida.
 
