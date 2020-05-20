@@ -91,4 +91,4 @@ for chave, valor in gatinhos.items():
     print '{}->{}'.format(chave,valor)
 
 ```
-Não se preocupe se você não entendeu o que vem a ser um dicionário ou a letra 'u' antes da frase, ou até mesmo a função range(). Isso foi proposital, para aguçar a sua curiosidade. Por hoje é só. Na [Aula 6](Aula6.md) você vai aprender sobre os tipos de dados no Python. Até.
+Não se preocupe se você não entendeu o que vem a ser um dicionário ou a letra 'u' antes da frase, ou até mesmo a função range(). Isso foi proposital, para aguçar a sua curiosidade. Por hoje é só. Na [Aula 6](Aula6.md) você vai aprender sobre os tipos de dados no Python. Até!
