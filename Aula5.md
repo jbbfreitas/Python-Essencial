@@ -64,3 +64,32 @@ while True:
 ```
 ### 2. for
 
+O `for` é usado quando se quer iterar sobre um bloco de código um determinado número de vezes.
+Isso significa que diferentemente do `while` o número de iterações é conhecida `a priori`.
+
+Vou mostrar mais 3 exemplos:
+
+```python
+#Exemplo 12 - Mostrando números de 1 a 9
+for i in range(1,10):
+    print i
+```
+
+```python
+# -*- coding: latin-1 -*-
+#Exemplo 13 - Iterando em uma frase
+frase = u"O Python é cool"
+for letra in frase:
+    print letra
+```
+
+```python
+# -*- coding: utf-8 -*-
+#Exemplo 14 - Iterando em um dicionário
+gatinhos = {'Português': "Boa Noite", "Inglês": "Good Night", "Francês": "Bonne Nuit", "Alemão": "Gute Nacht"}
+for chave, valor in gatinhos.items():
+    print '{}->{}'.format(chave,valor)
+
+```
+
+Por hoje é só. Na [Aula 6](Aula6.md) você vai aprender sobre os tipos de dados no Python. Até.
