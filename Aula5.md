@@ -20,11 +20,16 @@ Dessa forma a sintaxe do `while` é a seguinte:
 ```python
 while <condição>:
     instrução 1
+    break
+    continue
     instrução 2
     ...
     instrução n
-
+else:
+    instrução n+1
 ```
+A clausula `break` interrompe o laço e a `continue` ignora as instruções que estão abaixo e volta ao `while` passando para a próxima iteração. O código dentro do `else` é executado ao final do laço, a menos que o laço tenha sido interrompido por um `break`.
+
 Vou mostrar 3 exemplos:
 
 
@@ -57,3 +62,5 @@ while True:
         continue
     print("Para sair digite \"fim\"") 
 ```
+### 2. for
+
