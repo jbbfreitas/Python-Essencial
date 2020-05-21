@@ -112,3 +112,5 @@ identificacao_empregado.update(dados_salariais)
 print identificacao_empregado
 print identificacao_empregado["Nome"]
 ```
+Lembra-se que na Aula 5 eu falei sobre dicionários? Agora você já sabe o que é e para que serve.
+Por hoje é só. Na [Aula 7](Aula7.md) você vai aprender um pouco mais sobre os tipos texto do Python. Até!
