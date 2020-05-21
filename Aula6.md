@@ -25,6 +25,7 @@ Existem algumas regras para o nome de variáveis. Vamos mostra-las:
 Exemplos de variáveis válidas:
 
 ```python
+#Exemplo 15-Váriáveis válidas
 nome123 = 'João'
 _salario = 12.45
 data_nascimento='12/12/1970'
@@ -33,6 +34,7 @@ data_nascimento='12/12/1970'
 Exemplos de variáveis *inválidas*:
 
 ```python
+#Exemplo 15-Váriáveis inválidas
 época = "1900" #começa com é
 exceção = "Valor inválido" #contém caractere especial `ç`
 2semestre=range[6,13] #começa com número
@@ -52,25 +54,26 @@ Existem vários tipos simples de dados pré-definidos no Python, tais como:
 Exemplo:
 
 ```python
+#Exemplo 16-Váriáveis numéricas
 contador =10 # Tipo inteiro
 salario = 5482.34 #Tipo real
 x= 10+3j #Número complexo. O `j` é a parte imaginária do número complexo
+diametro_da_terrra = 12.742e3 #Real em notação científica
+print 'O diâmetro da terrra é de {} Km'.format(diametro_da_terrra)
 ```
 
 - Texto.
 ```python
+#Exemplo 17-Váriáveis textos
 nome ='Carlos R Cadete' # Tipo texto
 endereco ="Rua Domingos Ferreira" # Tipo texto
-salario = 5482.34 #Tipo real
-diametro_da_terrra = 12.742e3 #Real em notação científica
-print 'O diâmetro da terrra é de {} Km'.format(diametro_da_terrra)
-x= 10+3j #Número complexo. O `j` é a parte imaginária do número complexo
-print x
+var22 = u'Eqüidade' # Tipo texto unicode
 ```
 
 
 - Booleanos.
 ```python
+#Exemplo 17-Váriáveis booleanas
 v1 = True
 v2=bool(False) # atribui False
 v3=bool(None)) # atribui False
@@ -83,6 +86,7 @@ Os principais são:
 - **Lista** é uma coleção que é ordenada e mutável. Permite membros duplicados.
 
 ```python
+#Exemplo 18-Listas
 nomes = ['Mara', 'José', 'Camilo']
 dias_da_semana = [1,2,3,4,5,6,7]
 temperaturas = [32,27,-4,32,17, 27,-4]
@@ -90,6 +94,7 @@ temperaturas = [32,27,-4,32,17, 27,-4]
 
 - **Tupla** é uma coleção que é ordenada e imutável. Permite membros duplicados.
 ```python
+#Exemplo 19-Tuplas
 frutas = ("apple", "banana", "cherry") #OK
 frutas = ("grape", "banana") #OK
 frutas = frutas + ("avocado", "guava") #OK
@@ -99,6 +104,7 @@ print frutas
 
 - **Conjunto** é uma coleção não ordenada e não indexada. Nenhum membro duplicado.
 ```python
+#Exemplo 20-Conjuntos
 palpite_1 = [1,10,20,45,55,60]
 palpite_2 = [1,17,25,45,61,60]
 conjunto = set(palpite_1+palpite_2)
@@ -106,11 +112,12 @@ print conjunto
 ```
 - **Dicionário** é uma coleção desordenada, mutável e indexada. Nenhum membro duplicado.
 ```python
+#Exemplo 21-Dicionário
 identificacao_empregado = {"Nome": "Caio", "Sobrenome": "Santos", "Data_Nasc": '10/01/1983'}
 dados_salariais = {"Salario":4576.17, "Comissao": "17%" }
 identificacao_empregado.update(dados_salariais)
 print identificacao_empregado
 print identificacao_empregado["Nome"]
 ```
-Lembra-se que na Aula 5 eu falei sobre dicionários? Agora você já sabe o que é e para que serve.
+Lembra-se que na Aula 5 eu falei sobre dicionários e letra 'u' antes do texto? Agora você já sabe o que é e para que serve.
 Por hoje é só. Na [Aula 7](Aula7.md) você vai aprender um pouco mais sobre os tipos texto do Python. Até!
