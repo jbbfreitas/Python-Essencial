@@ -62,7 +62,10 @@ x= 10+3j #Número complexo. O `j` é a parte imaginária do número complexo
 nome ='Carlos R Cadete' # Tipo texto
 endereco ="Rua Domingos Ferreira" # Tipo texto
 salario = 5482.34 #Tipo real
+diametro_da_terrra = 12.742e3 #Real em notação científica
+print 'O diâmetro da terrra é de {} Km'.format(diametro_da_terrra)
 x= 10+3j #Número complexo. O `j` é a parte imaginária do número complexo
+print x
 ```
 
 
