@@ -95,10 +95,17 @@ print frutas
 ```
 
 - **Conjunto** é uma coleção não ordenada e não indexada. Nenhum membro duplicado.
+```python
+palpite_1 = [1,10,20,45,55,60]
+palpite_2 = [1,17,25,45,61,60]
+conjunto = set(palpite_1+palpite_2)
+print conjunto
+```
 - **Dicionário** é uma coleção desordenada, mutável e indexada. Nenhum membro duplicado.
-
-
-Os tipos no Python podem ser:
-▪ Mutáveis: permitem que os conteúdos das variáveis sejam alterados.
-▪ Imutáveis: não permitem que os conteúdos das variáveis sejam alterados.
-Em Python, os nomes de variáveis são referências, que podem ser alteradas em tempos de execução.
+```python
+identificacao_empregado = {"Nome": "Caio", "Sobrenome": "Santos", "Data_Nasc": '10/01/1983'}
+dados_salariais = {"Salario":4576.17, "Comissao": "17%" }
+identificacao_empregado.update(dados_salariais)
+print identificacao_empregado
+print identificacao_empregado["Nome"]
+```
