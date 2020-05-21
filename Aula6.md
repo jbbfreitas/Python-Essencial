@@ -78,7 +78,22 @@ v4=bool(1)) # atribui True
 
 Os principais são:
 - **Lista** é uma coleção que é ordenada e mutável. Permite membros duplicados.
+
+```python
+nomes = ['Mara', 'José', 'Camilo']
+dias_da_semana = [1,2,3,4,5,6,7]
+temperaturas = [32,27,-4,32,17, 27,-4]
+```
+
 - **Tupla** é uma coleção que é ordenada e imutável. Permite membros duplicados.
+```python
+frutas = ("apple", "banana", "cherry") #OK
+frutas = ("grape", "banana") #OK
+frutas = frutas + ("avocado", "guava") #OK
+frutas[0] = "orange" # Tentativa de alterar `grape` por `orange`. Erro aqui, as tuplas são imutáveis
+print frutas
+```
+
 - **Conjunto** é uma coleção não ordenada e não indexada. Nenhum membro duplicado.
 - **Dicionário** é uma coleção desordenada, mutável e indexada. Nenhum membro duplicado.
 
