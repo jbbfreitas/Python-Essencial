@@ -2,7 +2,7 @@
 
 ## Tipos de dados no Python
 
-
+### 1-Variáveis
 As variáveis no Python são criadas quando se atribui um valor a essas variáveis. Assim como em outras linguagens, como o java por exemplo, existe um coletor de lixo `garbage collector` que atua quando não existe mais nenhuma referência àquela variável.
 
 Vamos dizer a mesma coisa com um exemplo:
@@ -33,27 +33,57 @@ data_nascimento='12/12/1970'
 Exemplos de variáveis *inválidas*:
 
 ```python
-época = "1900'
-exceção = "Valor inválido"
-2semestre=range[6,13]
+época = "1900" #começa com é
+exceção = "Valor inválido" #contém caractere especial `ç`
+2semestre=range[6,13] #começa com número
 ```
 
+Além das regras, existem as boas práticas:
 
+1. Nomes de variáveis devem começar com letras minúsculas
+2. Nomes compostos devem ser separados com o caráctere `_`
+3. Evitar o uso do `Camel Case` que é a prática de escrever palavras compostas ou frases de modo que cada palavra ou abreviatura no meio da frase comece com uma letra maiúscula.
+4. Para mais detalhes, consulte o [Guia de codificação para Python](https://www.python.org/dev/peps/pep-0008/#function-and-variable-names)
 
+### 3-Tipos primitivos (simples)
 
-
-
-```
-
-  (sem acentuação) ou sublinhado (_) e seguido por letras (sem acentuação), dígitos ou sublinhados (_), sendo que maiúsculas e minúsculas são consideradas diferentes.
 Existem vários tipos simples de dados pré-definidos no Python, tais como:
-▪ Números (inteiros, reais, complexos, ... ).
-▪ Texto.
-▪ Booleanos.
-Além disso, existem tipos que funcionam como coleções. Os principais são:
-▪ Lista.
-▪ Tupla.
-▪ Dicionário.
+- Números (inteiros, reais, complexos, ... ).
+Exemplo:
+
+```python
+contador =10 # Tipo inteiro
+salario = 5482.34 #Tipo real
+x= 10+3j #Número complexo. O `j` é a parte imaginária do número complexo
+```
+
+- Texto.
+```python
+nome ='Carlos R Cadete' # Tipo texto
+endereco ="Rua Domingos Ferreira" # Tipo texto
+salario = 5482.34 #Tipo real
+x= 10+3j #Número complexo. O `j` é a parte imaginária do número complexo
+```
+
+
+- Booleanos.
+```python
+v1 = True
+v2=bool(False) # atribui False
+v3=bool(None)) # atribui False
+v4=bool(1)) # atribui True
+```
+
+### 4-Tipos coleções 
+
+Os principais são:
+- Lista.
+
+- Tupla.
+- Dicionário.
+
+
+
 Os tipos no Python podem ser:
 ▪ Mutáveis: permitem que os conteúdos das variáveis sejam alterados.
 ▪ Imutáveis: não permitem que os conteúdos das variáveis sejam alterados.
