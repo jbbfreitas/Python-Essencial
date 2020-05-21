@@ -77,11 +77,10 @@ v4=bool(1)) # atribui True
 ### 4-Tipos coleções 
 
 Os principais são:
-- Lista.
-
-- Tupla.
-- Dicionário.
-
+- **Lista** é uma coleção que é ordenada e mutável. Permite membros duplicados.
+- **Tupla** é uma coleção que é ordenada e imutável. Permite membros duplicados.
+- **Conjunto** é uma coleção não ordenada e não indexada. Nenhum membro duplicado.
+- **Dicionário** é uma coleção desordenada, mutável e indexada. Nenhum membro duplicado.
 
 
 Os tipos no Python podem ser:
