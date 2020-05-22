@@ -64,7 +64,7 @@ print(f'Hello {name}! This is {program}')
 Observe a Figura 1, ela é uma representação esquemática de como as strings são armazenadas e como podem ser extraídas as partes dessa string.
 
 <p align="center">
-  <img src="imagens/Substrings2.png" alt="Dividindo string em pedaços">
+  <img src="imagens/Substrings.png" alt="Dividindo string em pedaços">
 </p>
 <p align="center">
    <strong>Figura 1-Dividindo string em pedaços</strong> 
