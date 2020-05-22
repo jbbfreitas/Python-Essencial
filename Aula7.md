@@ -76,5 +76,9 @@ Você pode, então, obter um ou mais caracteres dessa string, informando o eleme
 Nesse sentido v[0]='O' e v[7]='D'.
 Mas Python vai além, se você usar o caractere ":" pode determinar o início ou o fim do recorte da string. Por exemplo:
 
-v[:3] irá mostrar
+v[:3] irá mostrar 'Olá'. Isso por que quando escrevemos v[:3] estamos informando o Python que desejamos 3 caracteres a partir do início. 
+
+v[5:] irá mostrar 'Mundo' por que estamos pedindo 5 caracteres a partir do fim.
+
+Por hoje é só. Na [Aula 8](Aula8.md) você vai aprender um pouco mais sobre as coleções no Python. Até mais!
 
