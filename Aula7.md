@@ -61,6 +61,7 @@ print(f'Hello {name}! This is {program}')
 
 ### 2. Dividindo strings:
 
+Observe a Figura 1, ela é uma representação esquemática de como as strings são armazenadas e como podem ser extraídas as partes dessa string.
 
 <p align="center">
   <img src="imagens/Substrings.png" alt="Dividindo string em pedaços">
@@ -68,3 +69,12 @@ print(f'Hello {name}! This is {program}')
 <p align="center">
    <strong>Figura 1-Dividindo string em pedaços</strong> 
 </p>
+
+Na verdade as strings são como uma array que começa na posição 0.
+Você pode, então, obter um ou mais caracteres dessa string, informando o elemento do array.
+
+Nesse sentido v[0]='O' e v[7]='D'.
+Mas Python vai além, se você usar o caractere ":" pode determinar o início ou o fim do recorte da string. Por exemplo:
+
+v[:3] irá mostrar
+
