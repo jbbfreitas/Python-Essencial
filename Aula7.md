@@ -78,7 +78,10 @@ Mas Python vai além, se você usar o caractere ":" pode determinar o início ou
 
 v[:3] irá mostrar 'Olá'. Isso por que quando escrevemos v[:3] estamos informando o Python que desejamos 3 caracteres a partir do início. 
 
-v[5:] irá mostrar 'Mundo' por que estamos pedindo 5 caracteres a partir do fim.
+v[5:] irá mostrar 'Mundo' por que estamos pedindo do quinto  caracteres até o fim.
+
+v[-1] irá mostrar 'o' por que estamos pedindo o último caractere.
+
 
 Por hoje é só. Na [Aula 8](Aula8.md) você vai aprender um pouco mais sobre as coleções no Python. Até mais!
 
