@@ -164,6 +164,6 @@ for e in listaC:
 
 ```
 
-Por hoje é só. Na [Aula 9](Aula9.md) você vai aprender um pouco mais sobre as tuplas no Python. Até mais!
+Por hoje é só. Na [Aula 9](Aula9.md) você vai aprender um pouco mais sobre os dicionários no Python. Até mais!
 
 
