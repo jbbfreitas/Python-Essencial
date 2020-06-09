@@ -161,4 +161,4 @@ Dicionário após excluir o elemento 5:
 Os dicionários são essenciais na utilização do Python na Ciência de Dados. 
 
 
-Por hoje é só. Na [Aula 10](Aula10.md) você vai aprender a criar funções no Python. Até mais!
+Por hoje é só. Na [Aula 10](Aula 10.md) você vai aprender a criar funções no Python. Até mais!
