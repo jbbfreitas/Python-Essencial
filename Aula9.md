@@ -43,6 +43,7 @@ A adição de elementos a um dicionário pode ser feita de várias maneiras:
 
 > Ao adicionar um valor ao dicionário, com uma chave já existente, o valor será atualizado, caso contrário, uma nova entrada `chave-valor` será adicionada ao Dicionário.
 
+### Exemplo:
 ```python
 # Criando dicionário vazio
 dic1 = {} 
@@ -90,4 +91,50 @@ Foi atualizada uma chave:
 
 Adicionando um dicionário: 
 {0: 'Rei Pele', 2: 'Rivelino era um craque', 3: 10, 'dic2': (2, 3, 4), 5: {'dic2': {'1': 'Vida', '2': 'Mar'}}}
+```
+
+## Removendo elementos a um dicionário
+
+
+Em um dicionário, a exclusão de chaves pode ser feita usando a palavra-chave `del`. 
+Ao usar o `del`, um valor específico de um dicionário ou até mesmo todo o dicionário podem ser excluídos, bem como um dicionário aninhado.
+
+::: :pushpin: Importante :::
+`del` Dict excluirá todo o dicionário e, portanto, imprimi-lo após a exclusão gerará um erro.
+
+### Exemplo:
+
+```python
+# Criando dicionário vazio
+dic1 = {} 
+dic1[0] = 'Pele'
+dic1[2] = 'Rivelino'
+dic1[3] = 10
+dic1['dic2'] = 2, 3, 4
+dic1[0] = 'Rei Pele'
+dic1[2] = 'Rivelino era um craque'
+dic1[5] = {'dic2' :{'1' : 'Vida', '2' : 'Mar'}} 
+print("\nDicionário logo após ser criado: ") 
+print dic1
+
+#Excluindo um elemento
+del dic1[2]
+print("\nDicionário após excluir o elemento 2: ") 
+print dic1
+
+#Excluindo um dicionário aninhado
+del dic1[5]
+print("\nDicionário após excluir o elemento 5: ") 
+print dic1
+```
+## Resultados
+```
+Dicionário logo após ser criado: 
+{0: 'Rei Pele', 2: 'Rivelino era um craque', 3: 10, 'dic2': (2, 3, 4), 5: {'dic2': {'1': 'Vida', '2': 'Mar'}}}
+
+Dicionário após excluir o elemento 2: 
+{0: 'Rei Pele', 3: 10, 'dic2': (2, 3, 4), 5: {'dic2': {'1': 'Vida', '2': 'Mar'}}}
+
+Dicionário após excluir o elemento 5: 
+{0: 'Rei Pele', 3: 10, 'dic2': (2, 3, 4)}
 ```
