@@ -140,9 +140,12 @@ Dicionário após excluir o elemento 5:
 ```
 
 ## Outros comandos importantes:
-|           ||
+
+| métodos       | Descrição             |
+| ------------- |:---------------------:|
 |copy()	    |O método copy () retorna uma cópia superficial do dicionário.|
-clear()	    O método clear () remove todos os itens do dicionário.
+|clear()	|O método clear () remove todos os itens do dicionário.|
++
 pop()	    Remove e retorna um elemento de um dicionário que possui a chave fornecida.
 popitem()	Remove o par de valor-chave arbitrário do dicionário e o retorna como
 get()	    É um método convencional para acessar um valor para uma chave.
