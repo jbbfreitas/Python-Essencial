@@ -139,7 +139,7 @@ Dicionário após excluir o elemento 5:
 {0: 'Rei Pele', 3: 10, 'dic2': (2, 3, 4)}
 ```
 
-## Outros comandos importantes:
+## Dicionários: outros métodos importantes:
 
 | métodos       | Descrição             |
 | ------------- |---------------------|
@@ -156,3 +156,9 @@ Dicionário após excluir o elemento 5:
 |fromkeys()	|Cria um novo dicionário com chaves de seq e valores definidos como valor.|
 |type()	    |Retorna o tipo da variável passada.|
 |cmp()	    |Compara elementos de ambos os ditados.|
+
+::: :pushpin: Importante :::
+Os dicionários são essenciais na utilização do Python na Ciência de Dados. 
+
+
+Por hoje é só. Na [Aula 10](Aula10.md) você vai aprender a criar funções no Python. Até mais!
