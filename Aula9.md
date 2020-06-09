@@ -142,7 +142,7 @@ Dicionário após excluir o elemento 5:
 ## Outros comandos importantes:
 
 | métodos       | Descrição             |
-| ------------- |:---------------------:|
+| ------------- |---------------------|
 |copy()	    |O método copy () retorna uma cópia superficial do dicionário.|
 |clear()	|O método clear () remove todos os itens do dicionário.|
 |pop()	    |Remove e retorna um elemento de um dicionário que possui a chave fornecida.|
