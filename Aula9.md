@@ -138,3 +138,19 @@ Dicionário após excluir o elemento 2:
 Dicionário após excluir o elemento 5: 
 {0: 'Rei Pele', 3: 10, 'dic2': (2, 3, 4)}
 ```
+
+## Outros comandos importantes:
+
+copy()	    O método copy () retorna uma cópia superficial do dicionário.
+clear()	    O método clear () remove todos os itens do dicionário.
+pop()	    Remove e retorna um elemento de um dicionário que possui a chave fornecida.
+popitem()	Remove o par de valor-chave arbitrário do dicionário e o retorna como
+get()	    É um método convencional para acessar um valor para uma chave.
+str()	    Produz uma representação de sequência imprimível de um dicionário.
+update()	Adiciona pares de valores-chave do dicionário dict2 a ditar
+keys()	    Retorna a lista de chaves do dicionário
+items()	    Retorna uma lista dos pares de tuplas do ditado (chave, valor)
+has_key()	Retorna true se a chave no dicionário dict, false caso contrário
+fromkeys()	Crie um novo dicionário com chaves de seq e valores definidos como valor.
+type()	    Retorna o tipo da variável passada.
+cmp()	   Compara elementos de ambos os ditados.
