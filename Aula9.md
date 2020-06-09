@@ -11,8 +11,10 @@ O dicionário do Python não fornece garantia de que as chaves estarão orden
 Exemplo:
 ```python
 
-dict1 = {1:"Domingo", 2:"Segunda-Feira", 3:"Terça-Feira",
-4:"Quarta-Feira", 5:"Quinta-Feira", 6:"Sexta-Feira", 7:"Sábado"}
+dict1 = {1:"Domingo", 2:"Segunda-Feira", 
+         3:"Terça-Feira",4:"Quarta-Feira", 
+         5:"Quinta-Feira", 6:"Sexta-Feira", 
+         7:"Sábado"}
 
 
 print dict1[2] # Irá imprimir "Segunda-Feira"
@@ -39,7 +41,7 @@ A adição de elementos a um dicionário pode ser feita de várias maneiras:
 
 ::: :pushpin: Importante :::
 
-    > Ao adicionar um valor ao dicionário, com uma chave já existente, o valor será atualizado, caso contrário, uma nova entrada `chave-valor` será adicionada ao Dicionário.
+> Ao adicionar um valor ao dicionário, com uma chave já existente, o valor será atualizado, caso contrário, uma nova entrada `chave-valor` será adicionada ao Dicionário.
 
 ```python
 # Criando dicionário vazio
@@ -72,7 +74,7 @@ print("\nAdicionando um dicionário: ")
 print(dic1) 
 ```
 
-# Resultados
+## Resultados
 ```
 Dicionário Vazio: 
 {}
