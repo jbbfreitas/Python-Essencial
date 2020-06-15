@@ -21,7 +21,7 @@ os parâmetros foram passados não importa.
 escopo global.
 - São recursivas, ou seja, uma função pode invocar ela mesma
 
-Exemplos:
+### Uma função bem simples.
 
 ```python
 # Exemplo 39 - Função para somar dois números 
@@ -34,6 +34,7 @@ num2=20
 print "A soma de {} com {} ".format(num1,num2) + "é igual a " + str(calcula_soma(num1,num2))
 
 ```
+### Um parâmetro que é uma lista.
 
 ```python
 # Exemplo 40 - Função para somar números de uma lista
@@ -45,6 +46,8 @@ def somalista(numeros):
 
 print(somalista([1,3,5,7,9]))
 ```
+
+### Função com parâmetros opcionais.
 
 ```python
 # Exemplo 41 - Função com parâmetros opcionais
@@ -75,6 +78,8 @@ um dicionário.
 
 > Obs 7: Os parâmetros passados com identificador na chamada da função devem vir no fim da lista de parâmetros.
 
+### Função com parâmetros opcionais, usando valores padrão nulo.
+
 ```python
 ## Exemplo 42 - Função com parâmetros opcionais
 def dividir_texto(seq, inicio=None, fim=None, inc=None):
@@ -91,6 +96,7 @@ print dividir_texto(frase,inc=2)
 print dividir_texto(frase,inicio=3,fim=5)
 ```
 
+### Função com número de parâmetros variáveis.
 
 ```python
 # Exemplo 43 - Função com número de parâmetros opcionais 
@@ -108,6 +114,20 @@ args_variaveis('um', 'dois', 'tres', nome='Joao', endereco='Rua das Flores', com
 
 >  **dic2 é um dicionário com número variável de parâmetros
 
+### Função com retorno múltiplo de valores. 
 
+```python
+# Exemplo 44 - Função com retorno múltiplo de valores 
+def retorno_multiplo(num):
+    d = 2*num
+    t = 3*num
+    return d, t
 
+dobro,triplo = retorno_multiplo(10)
+print "O dobro é {}".format(dobro)
+print "O triplo é {}".format(triplo)
+
+```
+
+Por hoje é só. Na [Aula 11](Aula11.md) você vai resolver um conjunto de exercícios usando o Python. Até mais!
 
