@@ -129,5 +129,8 @@ print "O triplo é {}".format(triplo)
 
 ```
 
+Por intermédio desses exemplos você pode constatar o quanto a linguagem Python é poderosa e 
+sofisticada.
+
 Por hoje é só. Na [Aula 11](Aula11.md) você vai resolver um conjunto de exercícios usando o Python. Até mais!
 
