@@ -10,6 +10,7 @@ O dicionário do Python não fornece garantia de que as chaves estarão orden
 
 Exemplo:
 ```python
+# Exemplo 35 - Dicionário 
 
 dict1 = {1:"Domingo", 2:"Segunda-Feira", 
          3:"Terça-Feira",4:"Quarta-Feira", 
@@ -26,7 +27,7 @@ Sim, pode-se usar um valor que também é um dicionário.
 
 Exemplo:
 ```python
-
+# Exemplo 36 - Dicionário 
 despesas = {'Energia': 100.45, 'Agua': 54.33, 'Cartao': {'Visa': 500.33, 'Master': 125.66, 'American': 0}}
 
 print "As despesas com cartão Master foi {}".format(despesas['Cartao']['Master'])
@@ -45,6 +46,7 @@ A adição de elementos a um dicionário pode ser feita de várias maneiras:
 
 ### Exemplo:
 ```python
+# Exemplo 37 - Dicionário 
 # Criando dicionário vazio
 dic1 = {} 
 print("Dicionário Vazio: ") 
@@ -105,6 +107,7 @@ Ao usar o `del`, um valor específico de um dicionário ou até mesmo todo o dic
 ### Exemplo:
 
 ```python
+# Exemplo 38 - Dicionário 
 # Criando dicionário vazio
 dic1 = {} 
 dic1[0] = 'Pele'
