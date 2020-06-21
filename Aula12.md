@@ -48,5 +48,41 @@ print name
 
 >Por evitar problemas como a ofuscação de variáveis, **a importação absoluta é uma prática melhor de programação do que a importação relativa**.
 
+### Criando um primeiro Módulo
+
+- Em um editor de textos qualquer, por exemplo o VSCode, crie um arquivo com o seguinte conteúdo, grave-o com o nome de Meu_Modulo.py :
+
+```python
+# -*- coding: latin1 -*-
+"""
+Meu_Modulo => rotinas utilitárias para aritmética 
+"""
+
+def somar(a,b):
+    return a+b
+
+def subtrair(a,b):
+    return a-b
+
+def multiplicar(a,b):
+    return float(a)*float(b)
+
+def dividir(a,b):
+    return float(a)/float(b)
+```
+
+No JupyterNotebook crie a célula abaixo e execute-a:
+
+```python
+from Meu_Modulo import *
+
+print somar(10,20)
+print subtrair(10,20)
+print dividir(10,20)
+print multiplicar(10,20)
+```
+
+
+
 
 
