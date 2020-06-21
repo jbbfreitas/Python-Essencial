@@ -94,6 +94,7 @@ Alguns módulos importantes da biblioteca padrão:
 - Tempo: time, datetime.
 - Outros: sys, logging, traceback, types, timeit.
 
+Por hoje é só. Na [Aula 13](Aula13.md) você vai aprender a usar e disrtibuir 'Pacotes' usando o Python. Até mais!
 
 
 
