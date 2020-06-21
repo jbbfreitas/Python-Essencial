@@ -46,7 +46,7 @@ print name
 ```
 ::: :pushpin: Importante :::
 
->Por evitar problemas como a ofuscação de variáveis, a importação absoluta é uma prática melhor de programação do que a importação relativa.
+>Por evitar problemas como a ofuscação de variáveis, *a importação absoluta é uma prática melhor de programação do que a importação relativa*.
 
 
 
