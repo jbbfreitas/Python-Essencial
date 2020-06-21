@@ -82,6 +82,17 @@ print dividir(10,20)
 print multiplicar(10,20)
 ```
 
+### Módulos da biblioteca padrão
+É comum dizer que o Python vem com “baterias inclusas”, em referência a vasta biblioteca de módulos e pacotes que é distribuída com o interpretador.
+
+Alguns módulos importantes da biblioteca padrão:
+- Sistema: os, glob, shutils, subprocess.
+- Threads: threading.
+- Persistência: pickle, cPickle.
+- XML: xml.dom, xml.sax, elementTree (a partir da versão 2.5).
+- Configuração: ConfigParser, optparse.
+- Tempo: time, datetime.
+- Outros: sys, logging, traceback, types, timeit.
 
 
 
