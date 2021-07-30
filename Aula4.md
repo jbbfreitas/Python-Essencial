@@ -35,6 +35,8 @@ else:
 
 > A última observação é que Python é uma linguagem `case sensitive`, ou seja, diferencia caracteres maiúsculos de minúsculos. Assim, por exemplo, a variável `Temperatura` é diferente da variável `temperatura`. Fiz questão de frisar isso aqui por que a instruções são grafadas em mínúsculo (`if`, `elif`, `else`).
 
+Que tal você experimentar esse trecho de código do Exemplo 7? Faça isso em uma nova célula do Jupyter.
+
 2. `SE` `inline`
 
 Em algumas situações, como por exemplo no uso de `lambda` (que será visto mais adiante), é desejável que a instrução `if else` seja escrita em uma única linha (**inline**).    
