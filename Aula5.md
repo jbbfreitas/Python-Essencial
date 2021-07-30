@@ -1,6 +1,18 @@
 # Aula 5
 
-## Laços
+## Laços ou Loop
+
+Na lição 4 nós aprendemos as estrutura que podem alterar o fluxo normal de execução de um programa que é `top-down`. Na lição 3, nós aprendemos sobre os blocos de código e dissemos que, nas próximas lições, iríamos falar um pouco mais sobre os vários tipos de blocos de código.
+
+Nesta lição iremos falar sobre um tipo de bloco denominado laço ou loop.
+Você já viu uma apresentação de acrobacia áerea? Pois é, nesse tipo de apresentação, geralmente os aviões fazem um "loop". Em acrobacia aérea, um loop nada mais é do que voar descrevendo um círculo vertical, ou seja, parte-se de um ponto A (o ponto mais alto), passa-se por um ponto B (o ponto mais baixo) e retorna-se ao ponto inicial (ponto A).
+
+<p align="center">
+  <img src="imagens/loop.jpg" alt="Looping aéreo">
+</p>
+<p align="center">
+   <strong>Figura 1-Um loop aéreo</strong> 
+</p>
 
 
 Como em qualquer linguagem de programação o Python possui diversas estruturas de repetição que podem ser utilizadas sempre que um conjunto (bloco) de instruções precisar ser executado uma ou mais vezes. Essas estruturas de repetição são denominadas `laços` ou `loop`. 
