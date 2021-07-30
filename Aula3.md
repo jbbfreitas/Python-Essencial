@@ -8,11 +8,11 @@ Então vamos lá.
 
 1. Continuação de linhas
 
-Uma boa prática de programação é escrever linhas com a largura máxima de 80 colunas. Isso melhora a legibilidade do seu código e evita que o leitor tenha que ficar rolando a tela para direita e para a esquerda o tempo todo. 
+Uma boa prática de programação é escrever as linhas do seu programa com a largura máxima de 80 colunas. Isso melhora a legibilidade do seu código e evita que o leitor tenha que ficar rolando a tela para direita e para a esquerda o tempo todo. 
 
 Para evitar linhas muito longas o ideal é quebrá-las em 2 ou 3 linhas. Entretanto, quando vc quebra uma linha você tem que informar ao Python que a próxima linha é uma continuação da linha atual. Como fazer isso? 
 
-Bem para informar isso você deve usar o caractere de barra invertida `\` ao final da linha ou parênteses, colchetes ou chaves, em expressões que utilizam tais caracteres.
+Bem, para informar isso você deve usar o caractere de barra invertida `\` ao final da linha ou parênteses `(`, colchetes `[`, vírgulas `,` quando separando parâmetros e também as chaves `{`, em expressões que utilizam tais caracteres.
 
 - Exemplo 1 - Continuação usando barra invertida:
 
@@ -49,11 +49,14 @@ A variável 'b' é o resultado de uma expressão e vale 50
 Ficou claro? 
 Resumindo: 
  - Via de regra utilize o caractere `\` para indicar que uma linha continua na linha seguinte.
- - Se ao final da linha houver uma caractere `[`, `(` ou  `{`, não precisa usar o `\`.
+ - Se ao final da linha houver uma caractere `[`, `(`, `,` ou  `{`, não precisa usar o `\`.
 
 2. Comentários
 
-Em toda linguagem de programação os comentários servem para documentar o que está sendo realizado.
+Em toda linguagem de programação os comentários servem para documentar o que está sendo realizado. Lembre-se: você não escreve um programa para você ler nem muito menos para a máquina (senão melhor seria usar o assembler), mas sim, para que outros possam ler.
+
+Pensando nisso, você deve documentar o que está escrevendo, explicando em uma linguagem simples e concisa as instruções que não são tão intuitivas em uma primeira leitura.
+
 Há duas formas de fazer comentário em Python
 
 - Comentário de linha usando `#`
@@ -64,7 +67,7 @@ Há duas formas de fazer comentário em Python
 
 ```python 
 #Exemplo-3 - Comentário de uma única linha
-#Vamos fazer uma iteração em uma lista
+#As instruções a seguir fazem uma iteração (caminhamento) em uma lista
 lista = [1,2,3,4,5] #Uma lista de números inteiros
 for x in lista:
     print x
@@ -83,17 +86,17 @@ for x in lista:
 '''
 Este é um comentário de múltiplas linhas
 Serve para documentar a rotina
-Estas linhas serão ignoradas pelo interpretador
+Estas linhas serão ignoradas pelo interpretador, ou seja, não são interpretadas pela máquina
 '''
 
 ```
 
 3. Comentários Funcionais
 
-Comentários funcionais geralmente são usados para:
-- alterar a codificação do arquivo fonte do programa acrescentando um comentário
-com o texto “#-*- coding: <encoding> -*#-” no inicio do arquivo, aonde <encoding> é a codificação do arquivo (geralmente latin1 ou utf-8). Alterar a codificação é necessário para suportar caracteres que não fazem parte da linguagem inglesa, no código fonte do programa.
-- definir o interpretador que será utilizado para rodar o programa em sistemas UNIX, através de um comentário começando com “#!” no inicio do arquivo, que indica o caminho para o interpretador (geralmente a linha de comentário será algo como “#!/usr/bin/env python”).
+Comentários funcionais geralmente são usados para 2 coisas:
+-  1-alterar a codificação do arquivo fonte do programa acrescentando um comentário
+com o texto “#-*- coding: <encoding> -*#-” no inicio do arquivo, onde <encoding> é a codificação do arquivo (geralmente latin1 ou utf-8). Alterar a codificação é necessário para suportar caracteres que não fazem parte da língua inglesa, no código fonte do programa.
+- 2-definir o interpretador que será utilizado para executar o programa em sistemas UNIX, através de um comentário começando com “#!” no inicio do arquivo, que indica o caminho para o interpretador (geralmente a linha de comentário será algo como “#!/usr/bin/env python”).
 
 Exemplo de comentários funcionais:
 
