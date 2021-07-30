@@ -118,7 +118,7 @@ Pesquise na internet sobre a função range() como usada em `for i in range(1,10
 Pesquise na internet sobre a performance(velocidade de execução) do `while` e do `for`
 
 #### Desafio 4 :innocent:
-Execute os exemplos de 9 a 13 no Jupyter.
+Execute os exemplos de 9 a 14, mostrados nesta aula,  no Jupyter.
 
 
 Por hoje é só. 
