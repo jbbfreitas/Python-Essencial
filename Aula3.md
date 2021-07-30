@@ -138,7 +138,7 @@ for i in [30, 60, 90, 120, 172]:
     else:
         print i,'Não é divisível por 3'
 ```
-Resumindo:
+::: :pushpin: Resumo :::
 
 Nesta aula nós vimos 4 importantes fundamentos da linguagem Python:
 - Como fazer continuação de linhas 
