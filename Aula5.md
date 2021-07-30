@@ -5,7 +5,7 @@
 Na lição 4 nós aprendemos as estrutura que podem alterar o fluxo normal de execução de um programa que é `top-down`. Na lição 3, nós aprendemos sobre os blocos de código e dissemos que, nas próximas lições, iríamos falar um pouco mais sobre os vários tipos de blocos de código.
 
 Nesta lição iremos falar sobre um tipo de bloco denominado laço ou loop.
-Você já viu uma apresentação de acrobacia áerea? Pois é, nesse tipo de apresentação, geralmente os aviões fazem um "loop". Em acrobacia aérea, um loop nada mais é do que voar descrevendo um círculo vertical, ou seja, parte-se de um ponto A (o ponto mais alto), passa-se por um ponto B (o ponto mais baixo) e retorna-se ao ponto inicial (ponto A).
+Você já viu uma apresentação de acrobacia áerea? Pois é, nesse tipo de apresentação, geralmente os aviões fazem um "loop". Em acrobacia aérea, um loop nada mais é do que voar descrevendo um círculo vertical, ou seja, parte-se de um ponto A (o ponto mais alto), passa-se por um ponto B (o ponto mais baixo) e retorna-se ao ponto inicial (ponto A). Veja a Figura 1.
 
 <p align="center">
   <img src="imagens/Loop.png" alt="Imagem de um looping aéreo">
