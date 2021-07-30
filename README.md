@@ -22,7 +22,7 @@ Saiba mais sobre o uso do [Python em Data Science](http://www.cienciaedados.com/
 </p>
 
 3. Testando o ambiente
-Se você instalou corretamente o Anaconda inicie o Anaconda Navigator, e uma janela semelhante a da Figura 2 deverá aparecer para você.
+Se você instalou corretamente o Anaconda, inicie o Anaconda Navigator. Uma janela semelhante a da Figura 2 deverá aparecer para você.
 
 <p align="center">
   <img src="imagens/AnacondaNavigator.png" alt="Anaconda Navigator">
