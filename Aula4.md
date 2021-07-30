@@ -1,8 +1,12 @@
 # Aula 4
 
+Na aula 3 nós dissemos que o Python tem vários tipos de blocos e que o caractere `:` indica que estamos criando um bloco.
+
+Nós iremos agora detalhar os vários tipos de blocos, explicando para que serve cada um deles. 
+
 ## Controle do Fluxo
 
-O fluxo normal de uma rotina escrita em qualquer linguagem de programação é `top-down`, ou seja, é uma sequencia de linhas de código escritos em determinadas linguagem que são executadas de cima para baixo (top-down). Ocorre, entretanto, que em diversas ocasiões é necessário alterar esse fluxo normal. É para isso que existem os chamados `controles de fluxo`. 
+O fluxo normal de uma rotina escrita em qualquer linguagem de programação é `top-down`, ou seja, é uma sequencia de linhas de código que são executadas de cima (`top`) para baixo (`down`). Ocorre, entretanto, que em diversas ocasiões pode ser necessário alterar esse fluxo normal. É para isso que existem os chamados `controles de fluxo`. 
 
 Vajamos os principais controles de fluxos existentes na linguagem.
 
@@ -19,9 +23,9 @@ if temperatura < 0:
 elif 0 <= temperatura <= 15: 
     print 'Está fazendo {} graus. Está frio ...'.format(temperatura)
 elif 16 <= temperatura <= 25: 
-    print 'Está fazendo {} graus. Está bem boa a temperaturaeratura ...'.format(temperatura)
+    print 'Está fazendo {} graus. Está bem agradável a temperatura ...'.format(temperatura)
 elif 26 <= temperatura <= 35: 
-    print '{} graus de temperaturaeratura pede um chopp!'.format(temperatura)
+    print '{} graus de temperatura pede um chopp!'.format(temperatura)
 else:
     print '{} graus, é muito quente! Um banho de agua gelaaaaada'
 ```
@@ -29,7 +33,7 @@ else:
 
 > A última instrução é um `SENÃO` que em python é o `else`.
 
-> A última observação é que Python é uma linguagem `case sensitive`, ou seja, diferencia maiúsculo de minúsculo. Assim, por exemplo, a variável `Temperatura` é diferente da variável `temperatura`. Fiz questão de frisar isso aqui por que a instruções são grafadas em mínúsculo (`if`, `elif`, `else`).
+> A última observação é que Python é uma linguagem `case sensitive`, ou seja, diferencia caracteres maiúsculos de minúsculos. Assim, por exemplo, a variável `Temperatura` é diferente da variável `temperatura`. Fiz questão de frisar isso aqui por que a instruções são grafadas em mínúsculo (`if`, `elif`, `else`).
 
 2. `SE` `inline`
 
