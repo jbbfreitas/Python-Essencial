@@ -17,9 +17,9 @@ Você já viu uma apresentação de acrobacia áerea? Pois é, nesse tipo de apr
 
 Como em qualquer linguagem de programação o Python possui diversas estruturas de repetição que podem ser utilizadas sempre que um conjunto (bloco) de instruções precisar ser executado uma ou mais vezes. Essas estruturas de repetição são denominadas `laços` ou `loop`. 
 
-Cada vez que as instruções do bloco é executada diz-se que foi realizado um ciclo ou iteração. Cada iteração  de um `loop` é executada até que uma determinada condição seja atingida. 
+Cada vez que as instruções do bloco são executadas diz-se que foi realizado um ciclo ou iteração. Cada iteração  de um `loop` é executada até que uma determinada condição seja atingida. 
 
-É possível inserir um laço dentro de outro laço. Isso é o que se denomina de laços ninho de laços ou laços aninhados.
+É possível inserir um laço dentro de outro laço. Isso é o que se denomina de ninho de laços ou laços aninhados.
 
 Vou mostrar duas estruturas de repetição do Python: `while` e `for`
 
@@ -103,4 +103,20 @@ for chave, valor in gatinhos.items():
     print '{}->{}'.format(chave,valor)
 
 ```
-Não se preocupe se você não entendeu o que vem a ser um dicionário ou a letra 'u' antes da frase, ou até mesmo a função range(). Isso foi proposital, para aguçar a sua curiosidade. Por hoje é só. Na [Aula 6](Aula6.md) você vai aprender sobre os tipos de dados no Python. Até!
+Não se preocupe se você não entendeu o que vem a ser um dicionário ou a letra 'u' antes da frase (exemplo 13), ou até mesmo a função range(). Isso foi proposital, para aguçar a sua curiosidade. 
+
+::: :pushpin: Resumo :::
+Nesta aula você aprendeu sobre o uso dos laços `while`e `for`.
+
+#### Desafio 1 :innocent:
+Pesquise na internet sobre a letra `u` como usada na frase  `frase = u"O Python é cool"`
+
+#### Desafio 2 :innocent:
+Pesquise na internet sobre a função range() como usada em `for i in range(1,10):`
+
+#### Desafio 3 :innocent:
+Pesquise na internet sobre a performance(velocidade de execução) do `while` e do `for`
+
+Por hoje é só. 
+
+Na [Aula 6](Aula6.md) você vai aprender sobre os tipos de dados no Python. Até!
