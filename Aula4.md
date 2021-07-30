@@ -2,11 +2,11 @@
 
 Na aula 3 nós dissemos que o Python tem vários tipos de blocos e que o caractere `:` indica que estamos criando um bloco.
 
-Nós iremos agora detalhar os vários tipos de blocos, explicando para que serve cada um deles. 
+Nós iremos agora mostrar como fazer para alterar o fluxo normal de execução das instruções. 
 
 ## Controle do Fluxo
 
-O fluxo normal de uma rotina escrita em qualquer linguagem de programação é `top-down`, ou seja, é uma sequencia de linhas de código que são executadas de cima (`top`) para baixo (`down`). Ocorre, entretanto, que em diversas ocasiões pode ser necessário alterar esse fluxo normal. É para isso que existem os chamados `controles de fluxo`. 
+O fluxo normal de uma rotina escrita em qualquer linguagem de programação é `top-down`, ou seja, é uma sequencia de linhas de código que são executadas de cima (`top`) para baixo (`down`). Ocorre, entretanto, que em diversas ocasiões pode ser necessário alterar esse fluxo normal, por exemplo, executar uma determinada linha apenas se uma determinada condição for verdadeira. É para isso que existem os chamados `controles de fluxo`. 
 
 Vajamos os principais controles de fluxos existentes na linguagem.
 
@@ -39,22 +39,31 @@ Que tal você experimentar esse trecho de código do Exemplo 7? Faça isso em um
 
 2. `SE` `inline`
 
-Em algumas situações, como por exemplo no uso de `lambda` (que será visto mais adiante), é desejável que a instrução `if else` seja escrita em uma única linha (**inline**).    
+Em algumas situações, como por exemplo no uso de `lambda` (que será visto mais adiante), é desejável que a instrução `if else` esteja escrita em uma única linha (**inline**).    
 
 ```python
 clima = 'muito quente' if temperatura > 35 else 'suportável'
 ```
+Veja que legal! No exemplo acima o `if` não é um bloco, por isso não usa o `:`, por estar escrito em uma só linha. Esse comando é chamado de  ` if in line` (if em uma só linha).
 
 3. Operadores lógicos
 
 Os operadores lógicos são usados para  construir condições mais complexas para fazer o controle do fluxo.
 
+Explicando melhor: suponha que você queira mostrar uma mensagem de boas vindas que depende de duas informações: o e-mail e a senha. Neste caso você terá que verifica se a senha está correta `e` se o e-mail está correto. Esse `e`em Python é o que se chama de conector `and`. Então voc6e escreveria algo mais ou menos assim:
+
+```python
+if e-mail=='o email' and senha=='a senha': 
+    print 'Seja bem-vindo ao nosso site'
+else
+    print 'O e-mail ou a senha informados esstão incorretos'
+```        
+
 Os operadores lógicos em Python são os seguintes: `and`, `or`, `not`, `is` e `in`.
 
--  `and` : avalia duas expressões e retorna verdadeiro se e somente se ambas são
-verdadeiras.
+-  `and` : avalia duas expressões e retorna verdadeiro <b>se e somente se</b> ambas são forem verdadeiras.
 
-- `or` : avalia duas expressões e retorna verdadeiro se uma ou ambas as expressões são
+- `or` : avalia duas expressões e retorna verdadeiro se uma ou ambas as expressões forem
 verdadeiras.
 
 - `not` : nega uma expressão, ou seja, se ela for verdadeira, passa a ser falsa e vice-versa.
@@ -68,10 +77,30 @@ verdadeiras.
 
 estado_civil = ['Solteiro', 'Casado', 'Viúvo','Separado','Amasiado']
 es = raw_input('Favor informar o estado civil:')
-if not(es in estado_civil): print 'Estado civil inválido!'
-else: print 'Obrigado'    
+if not(es in estado_civil): 
+    print 'Estado civil inválido!'
+else: 
+    print 'Obrigado pela sua informação'    
 
 ```
+
+Na 3a linha da listagem acima, temos dois operadores `not` e `in`. Essa linha quer 
+dizer o seguinte:
+
+Se o estado civil informado não estiver contido na lista `estado_civil` então escreva `Estado civil inválido`. Se tiver contido, então escreva `Obrigado pela sua informação`.
+
+::: :pushpin: Resumo :::
+
+> Nesta aula você aprendeu como alterar (controlar) o fluxo normal `top-down` usando as seguintes instruções:
+1. `if`....`elif`....`else`
+2. `if` `inline`
+3. Os operadores: `and`, `or`, `not`, `is` e `in`
+
+#### Desafio 1 :innocent:
+Escreva em Python um trecho de programa usando os operadores `if` e `and`
+
+#### Desafio 2 :innocent:
+Escreva em Python um trecho de programa usando os operadores `if`, `not` e `or`
 
 Por hoje é só. Na [Aula 5](Aula5.md) você vai aprender usar laços. Até.
 
