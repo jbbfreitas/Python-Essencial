@@ -113,14 +113,17 @@ print c
 
 4. Blocos de código
 
+Como o nome já diz um "bloco de código" é um conjunto de instruções escritas em Python que devem operar em conjunto, ou seja, um instrução em um bloco não está sozinha, mas agrupada com outras instruções. O Python tem vários tipos de bloco. Nós vamos falar deles nas próximas aulas. O importante aqui é que você entenda como instruir o Python que você está escrevendo um bloco de instruções e isso é feito com o uso do caractere `:`.
+Importante dizer que dentro de um bloco é possível criar outros blocos (ou sub-blocos). O nome técnico para isso é "ninho" de blocos, ou seja, um bloco está "aninhado" dentro de outro bloco.
+
 <p align="center">
   <img src="imagens/Bloco_Codigo.png" alt="Blocos de Código">
 </p>
 <p align="center">
-   <strong>Figura 1-Blocos de Código</strong> 
+   <strong>Figura 1-Blocos de Código Aninhados</strong> 
 </p>
 
-Conforme você pode observar na Figura 1, o sinal de `:` determina o ínicio de um bloco. As instruções que estão dentro de um bloco devem, obrigatoriamente, estar recuadas (com tab).
+Conforme você pode observar na Figura 1, o sinal de `:` determina o ínicio de um bloco. As instruções que estão dentro de um bloco devem, obrigatoriamente, estar recuadas (usando-se a tecla `tab`, não use a barra de espaços).
 Para aninhar um bloco dentro de outro bloco, basta fazer novo recuo. 
 
 Vamos mostrar isso com um exemplo.
@@ -130,9 +133,15 @@ Vamos mostrar isso com um exemplo.
 # Para i na lista 30, 60, 90, 120, 171:
 for i in [30, 60, 90, 120, 172]:
 # Se o resto dividindo por 3 for igual a zero:
-    if i % 3 == 0: # Imprime...
+    if i % 3 == 0: # Este bloco está aninhado ao bloco for...
         print i, '/ 3 =', i / 3
     else:
         print i,'Não é divisível por 3'
 ```
+Nesta aula nós vimos 4 fundamentos da linguagem Python:
+- Continuação de linhas 
+- Comentários
+- Comentários funcionais
+- Como criar blocos de código
+
 Por hoje é só. Até a [Próxima Aula](Aula4.md)
