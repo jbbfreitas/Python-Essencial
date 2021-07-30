@@ -33,9 +33,9 @@ else:
 
 > A última instrução é um `SENÃO` que em python é o `else`.
 
-> A última observação é que Python é uma linguagem `case sensitive`, ou seja, diferencia caracteres maiúsculos de minúsculos. Assim, por exemplo, a variável `Temperatura` é diferente da variável `temperatura`. Fiz questão de frisar isso aqui por que a instruções são grafadas em mínúsculo (`if`, `elif`, `else`).
+> Observe  que Python é uma linguagem `case sensitive`, ou seja, diferencia caracteres maiúsculos de minúsculos. Assim, por exemplo, se você der um nome para uma variável de `Temperatura` ela será diferente da variável `temperatura`. Faço questão de frisar isso aqui por que as instruções são grafadas em mínúsculo (`if`, `elif`, `else`), isto é, se você usar `IF` o Python vai informar que há um erro na sua sintaxe.
 
-Que tal você experimentar esse trecho de código do Exemplo 7? Faça isso em uma nova célula do Jupyter.
+Que tal você experimentar esse trecho de código do Exemplo 7? Faça isso em uma nova célula do Jupyter. Não há nenhum problema se você não entender a sintaxe completa. O objetivo aqui é você entender o bloco de código `if`.
 
 2. `SE` `inline`
 
