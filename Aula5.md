@@ -8,7 +8,7 @@ Nesta lição iremos falar sobre um tipo de bloco denominado laço ou loop.
 Você já viu uma apresentação de acrobacia áerea? Pois é, nesse tipo de apresentação, geralmente os aviões fazem um "loop". Em acrobacia aérea, um loop nada mais é do que voar descrevendo um círculo vertical, ou seja, parte-se de um ponto A (o ponto mais alto), passa-se por um ponto B (o ponto mais baixo) e retorna-se ao ponto inicial (ponto A).
 
 <p align="center">
-  <img src="imagens/Loop.png.jpeg" alt="Imagem de um looping aéreo">
+  <img src="imagens/Loop.png" alt="Imagem de um looping aéreo">
 </p>
 <p align="center">
    <strong>Figura 1-Um loop aéreo</strong> 
