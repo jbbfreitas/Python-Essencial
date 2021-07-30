@@ -117,6 +117,10 @@ Pesquise na internet sobre a função range() como usada em `for i in range(1,10
 #### Desafio 3 :innocent:
 Pesquise na internet sobre a performance(velocidade de execução) do `while` e do `for`
 
+#### Desafio 4 :innocent:
+Execute os exemplos de 9 a 13 no Jupyter.
+
+
 Por hoje é só. 
 
 Na [Aula 6](Aula6.md) você vai aprender sobre os tipos de dados no Python. Até!
