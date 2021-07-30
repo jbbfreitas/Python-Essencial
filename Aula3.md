@@ -138,10 +138,14 @@ for i in [30, 60, 90, 120, 172]:
     else:
         print i,'Não é divisível por 3'
 ```
-Nesta aula nós vimos 4 fundamentos da linguagem Python:
-- Continuação de linhas 
-- Comentários
-- Comentários funcionais
-- Como criar blocos de código
+Resumindo:
 
-Por hoje é só. Até a [Próxima Aula](Aula4.md)
+Nesta aula nós vimos 4 importantes fundamentos da linguagem Python:
+- Como fazer continuação de linhas 
+- Como fazer comentários nos códigos
+- O que são comentários funcionais e qual a sua sintaxe
+- O que são e como fazer para criar blocos de código
+
+Por hoje é só. 
+
+Até a [Próxima Aula](Aula4.md)
