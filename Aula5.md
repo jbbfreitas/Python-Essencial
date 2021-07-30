@@ -120,6 +120,8 @@ Pesquise na internet sobre a performance(velocidade de execução) do `while` e 
 #### Desafio 4 :innocent:
 Execute os exemplos de 9 a 14, mostrados nesta aula,  no Jupyter.
 
+#### Desafio 5 :innocent:
+Altere o exemplo 14 para incluir também o cumprimento em espanhol.
 
 Por hoje é só. 
 
