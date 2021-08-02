@@ -114,18 +114,28 @@ Para fatiar, ou seja, extrair pedaços de uma lista, usa-se o `:`.
 
 minha_lista = ['c', 'o', 'n', 's', 't','r','u','i','r']
 
-# o terceiro até o quinto
+# extrai a partir do início 5 elementos e, desses 5 mostra a partir do índice '2' (lembre-se o primeiro é zero)
 print(minha_lista[2:5])
 
-# do início até o quarto elemento
+# exibe a lista com menos os 5 últimos elementos
 print(minha_lista[:-5])
 
-# Do sexto até o fim
+# Do índice 5 até o fim
 print(minha_lista[5:])
 
 # todos os elementos do início ao fim
 print(minha_lista[:])
 ```
+Veja como fica a saída
+
+```
+['n', 's', 't']
+['c', 'o', 'n', 's']
+['r', 'u', 'i', 'r']
+['c', 'o', 'n', 's', 't', 'r', 'u', 'i', 'r']
+
+```
+
 
 ### 5-Como adicionar ou alterar elementos a uma lista?
 
