@@ -45,16 +45,18 @@ Java Script
 ['R', 'Python', 'Java', 'C#']
 ```
 
-
+::: :pushpin: Importante :::
 
 > A função enumerate() retorna uma tupla de dois elementos a cada iteração: um número
-seqüencial e um item da seqüência correspondente. (`i` e `prog`) no nosso caso.
+seqüencial e um item da seqüência correspondente. (`i` e `prog`) no nosso caso. Tupla nada mais é do que uma lista, entretanto, diferentemente das listas, as tuplas são imutáveis. 
+
+> Então a instrução `for i, prog in enumerate(linguagens)` tem uma dupla função: contar elementos e obter os elementos.
 
 > As funções de ordenação (sort) e de inversão (reverse) são realizadas na própria lista, sendo assim, não geram novas listas. Observe que a lista `liguagens` foi alterada com o uso dessas duas funções.
 
 ### 2- Como funcionam os índices?
 
-A linguagem Python é denominada `zero indexed`, ou seja, seus índices são baseadas em zero. Isso significa que o primeiro elemento de uma lista é o zero, e o último é o número de elementos menos 1.
+A linguagem Python é denominada `zero indexed`, ou seja, seus índices são baseadas em zero. Isso significa que o primeiro elemento de uma lista é o zero, e o último é o número de elementos menos 1. Lembra-se da aula 7 quando falamos das strings?
 
 Se uma lista contiver uma outra lista, o acesso a um de seus elementos é duplamente indexado.
 Assim : elemento[i,j]: onde `i` é a posição da sublista na lista principal e `j` é a posição do elemento dentro da sublista.
@@ -76,17 +78,18 @@ print(minha_lista[2])
 print(minha_lista[4])
 
 # Lista dentro de lista
-outra_lista = ["Alegria", [2, 0, 1, 5]]
+outra_lista = ["Alegria", [2, 0, 2, 1]]
 
 # Índice de uma Lista dentro de outra.
 # Imprime a letra 'l'
-print(outra_lista[0][1])
+print(outra_lista[0][3])
 
 # Imprime o número 5
-print(outra_lista[1][3])
+print(outra_lista[1][2])
 
-# Erro! Não pode usar float como índice, apenas inteiros
-#print(minha_lista[4.0])
+
+#print(minha_lista[4.0]) Essa instrução dariaErro! Não pode usar float como índice, apenas inteiros
+
 
 ```
 
