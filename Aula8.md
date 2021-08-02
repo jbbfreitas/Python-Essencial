@@ -30,7 +30,7 @@ linguagens.reverse() # Invertendo a lista
 for i, prog in enumerate(linguagens): print i + 1, '=>', prog # Imprimindo com numeração
 print linguagens[1:] # Imprime do segundo item em diante
 ```
-Veja a saída:
+Veja como fica saída:
 ```
 Java
 Python
