@@ -10,7 +10,7 @@ O Python tem diversos tipos de coleções e um dos mais simples e versateis é a
 
 Em Python é muito fácil criar uma lista, bastando para isso colocar todos os seus elementos dentro de colchetes `[]` separados por vírgula.
 
-Os itens de uma lista podem ser de quaisquer tipo (integer, float, string), inclusive outra lista.
+Os itens de uma lista podem ser de quaisquer tipo (`integer`, `float`, `string`). Pode, inclusive, ser uma outra lista, ou seja, uma lista dentro de uma lista.
 
 As listas são mutáveis, isto quer dizer que você pode alterar, a qualquer tempo, um ou mais elementos de uma lista.
 
@@ -19,8 +19,8 @@ Vamos ver alguns exemplos de como criar e modificar uma lista.
 ```python
 # Exemplo 28- Listas
 # Uma nova lista: Linguagens de programação
-linguagens = ['Java', 'Python', 'C', 'R', 'Java Script']
-# Varrendo a lista inteira
+linguagens = ['Java', 'Python', 'C', 'R', 'Java Script', 'Typescript']
+# Percorrendo uma lista do início ao fim
 for prog in linguagens: print prog
 # Trocando o último elemento
 linguagens[-1] = 'TypeScript' 
