@@ -101,10 +101,14 @@ v[-1] irá mostrar 'o' por que estamos pedindo o último caractere.
 
 ::: :pushpin: Resumo :::
 
-- Nesta aula nós começamos a entender um poderoso recurso da linguagem Python: am manipulação de textos
-- Aprendemos como manipuar textos usando: concatenação, interpolação, extração de caracteres
-- Aprendemos que as Strings são imutáveis e que são armazenadas como arrays
-- Por fim aprendemos com extrair substrings usando os índices dos arrays e o sinal de `:`
+- Nesta aula nós começamos a entender um poderoso recurso da linguagem Python: a manipulação de textos;
+- Aprendemos como manipuar textos usando: concatenação, interpolação e particionamento em caracteres;
+- Aprendemos que as Strings são imutáveis e que são armazenadas como arrays;
+- Por fim aprendemos com extrair substrings usando os índices dos arrays e o sinal de `:`.
+
+
+#### Desafio 1 :innocent:
+Use a sua imaginação e tente fazer um algorítmo que extraia palavras inteiras de um texto.
 
 
 Por hoje é só. Na [Aula 8](Aula8.md) você vai aprender um pouco mais sobre as coleções no Python. Até mais!
