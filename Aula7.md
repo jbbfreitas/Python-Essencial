@@ -1,6 +1,6 @@
 # Aula 7
 
-## Entendendo um pouco mais o tipo Texto
+## Aprendendo um pouco mais sobre o tipo Texto
 
 Os textos no Python são tratados como `string`.
 
@@ -14,11 +14,28 @@ As `strings` no Python são imutáveis, isto é, após criada,  não é poss
 animal = 'Camelo'
 print 'O ' + animal + ' pode ficar até 8 dias sem beber água!' # Concatenação
 print 'A variável "%s" tem %d caracteres' % (animal, len(animal)) # Interpolação
+
 for um_char in animal: print um_char # String tratada como seqüência
+
 if animal.startswith('C'): print animal.upper() # Strings são objetos
 print 3 * animal  # Pode isso ? Pode!
 
 ```
+Veja os resultados:
+
+```
+O Camelo pode ficar até 8 dias sem beber água!
+A variável "Camelo" tem 6 caracteres
+C
+a
+m
+e
+l
+o
+CAMELO
+CameloCameloCamelo
+```
+
 
 Símbolos usados na interpolação:
 - %s: string.
@@ -76,11 +93,18 @@ Você pode, então, obter um ou mais caracteres dessa string, informando o eleme
 Nesse sentido v[0]='O' e v[7]='D'.
 Mas Python vai além, se você usar o caractere ":" pode determinar o início ou o fim do recorte da string. Por exemplo:
 
-v[:3] irá mostrar 'Olá'. Isso por que quando escrevemos v[:3] estamos informando o Python que desejamos 3 caracteres a partir do início. 
+v[:3] irá mostrar 'Olá'. Isso por que quando escrevemos v[:3] estamos informando ao Python que desejamos 3 caracteres a partir do início. 
 
-v[5:] irá mostrar 'Mundo' por que estamos pedindo do quinto  caractere até o fim.
+v[5:] irá mostrar 'Mundo' por que estamos pedindo ao Python 5 caracteres, contados do fim para o começo.
 
 v[-1] irá mostrar 'o' por que estamos pedindo o último caractere.
+
+::: :pushpin: Resumo :::
+
+- Nesta aula nós começamos a entender um poderoso recurso da linguagem Python: am manipulação de textos
+- Aprendemos como manipuar textos usando: concatenação, interpolação, extração de caracteres
+- Aprendemos que as Strings são imutáveis e que são armazenadas como arrays
+- Por fim aprendemos com extrair substrings usando os índices dos arrays e o sinal de `:`
 
 
 Por hoje é só. Na [Aula 8](Aula8.md) você vai aprender um pouco mais sobre as coleções no Python. Até mais!
