@@ -112,15 +112,16 @@ Para fatiar, ou seja, extrair pedaços de uma lista, usa-se o `:`.
 ```python
 # Exemplo 31 -Fatiando as listas
 
+
 minha_lista = ['c', 'o', 'n', 's', 't','r','u','i','r']
 
-# extrai a partir do início 5 elementos e, desses 5 mostra a partir do índice '2' (lembre-se o primeiro é zero)
+# exibir a partir do índice 2 até o 5º elemento 
 print(minha_lista[2:5])
 
-# exibe a lista com menos os 5 últimos elementos
+# exibir a lista subtraindo os 5 últimos elementos
 print(minha_lista[:-5])
 
-# Do índice 5 até o fim
+# exibir do a partir do índice 5 até o final
 print(minha_lista[5:])
 
 # todos os elementos do início ao fim
@@ -146,15 +147,29 @@ Para alterar uma lista usa-se o operador `=`. É possível alterar um elemento o
 ```python
 # Exemplo 32 -Alterando listas, para corrigie um erro (de pares para impares)
 impares = [2, 4, 6, 8]
-# alterar o primeiro item    
+
+# alterar o índice 0  
 impares[0] = 1            
+
 print(impares)
-# alterando do segundo ao quarto item
+
+# alterando a partir do índice 1 até o 4º elemento
 impares[1:4] = [3, 5, 7]  
-print(impares)                   
+
+print(impares)                                 
+```
+Veja como fica a saída
+```
+[1, 4, 6, 8]
+[1, 3, 5, 7]
 ```
 
-Nós podemos adicionar um item a uma lista usando o método `append()` ou um conjunto de vários itens usando o método `extend()`.
+
+::: :pushpin: Não confunda! :::
+
+> O que vem antes do `:` é o índice (começando em 0). O que vem após o `:` é o número de elementos . Se o número de elementos for negativo, conta-se de marcha ré (do final para o começo).
+
+É possível adicionar um item a uma lista usando o método `append()` ou um conjunto de vários itens usando o método `extend()`.
 
 ```python
 # Exemplo 33 -Adicionando e estendendo listas 
