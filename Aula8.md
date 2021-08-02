@@ -17,26 +17,36 @@ As listas são mutáveis, isto quer dizer que você pode alterar, a qualquer tem
 Vamos ver alguns exemplos de como criar e modificar uma lista.
 
 ```python
+# Aula 8 - Listas
 # Exemplo 28- Listas
-# Uma nova lista: Linguagens de programação
-linguagens = ['Java', 'Python', 'C', 'R', 'Java Script', 'Typescript']
-# Percorrendo uma lista do início ao fim
-for prog in linguagens: print prog
-# Trocando o último elemento
-linguagens[-1] = 'TypeScript' 
-# Incluindo
-linguagens.append('C#') 
-# Removendo
-linguagens.remove('C') 
-# Ordenando a lista
-linguagens.sort()
-# Invertendo a lista
-linguagens.reverse()
-# Imprimindo numerado
-for i, prog in enumerate(linguagens): print i + 1, '=>', prog
-# Imprime do segundo item em diante
-print linguagens[1:] 
+
+linguagens = ['Java', 'Python', 'C', 'R', 'Java Script']# Uma nova lista: Linguagens de programação
+for prog in linguagens: print prog # Varrendo a lista inteira
+linguagens[-1] = 'TypeScript' # Trocando o último elemento
+linguagens.append('C#') # Incluindo uma nova linguagem
+linguagens.remove('C') # Removendo uma linguagem da lista
+linguagens.sort() # Ordenando a lista
+linguagens.reverse() # Invertendo a lista
+for i, prog in enumerate(linguagens): print i + 1, '=>', prog # Imprimindo com numeração
+print linguagens[1:] # Imprime do segundo item em diante
 ```
+Veja a saída:
+```
+Java
+Python
+C
+R
+Java Script
+1 => TypeScript
+2 => R
+3 => Python
+4 => Java
+5 => C#
+['R', 'Python', 'Java', 'C#']
+```
+
+
+
 > A função enumerate() retorna uma tupla de dois elementos a cada iteração: um número
 seqüencial e um item da seqüência correspondente. (`i` e `prog`) no nosso caso.
 
