@@ -201,6 +201,15 @@ for e in listaC:
     print e
 
 ```
+#### Desafio 1 :innocent:
+Complete o código python abaixo para que o resultado seja : `linguagem  Python: poderosa e simples`
+
+```python
+lista2 = ['@#&','lin','&*','guagem ',' Python',': ','<<','po','**','derosa',' e simples']
+lista3= #Complete aqui usando os conhecimentos aprendidos nesta aula
+print ''.join([str(elem) for elem in lista3])
+```
+
 
 Por hoje é só. Na [Aula 9](Aula9.md) você vai aprender um pouco mais sobre os dicionários no Python. Até mais!
 
