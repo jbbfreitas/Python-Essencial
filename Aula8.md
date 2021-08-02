@@ -202,7 +202,7 @@ for e in listaC:
 
 ```
 #### Desafio 1 :innocent:
-Complete o código python abaixo para que o resultado seja : `linguagem  Python: poderosa e simples`
+Complete o código python abaixo (segunda linha) para que o resultado seja : `linguagem  Python: poderosa e simples`
 
 ```python
 lista2 = ['@#&','lin','&*','guagem ',' Python',': ','<<','po','**','derosa',' e simples']
