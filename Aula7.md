@@ -110,6 +110,8 @@ v[-1] irá mostrar 'o' por que estamos pedindo o último caractere.
 #### Desafio 1 :innocent:
 Use a sua imaginação e tente fazer um algorítmo que extraia palavras inteiras de um texto.
 
+#### Desafio 2 :innocent:
+Altere o algorítmo anterior adicionando um '#' no início de cada palavra. Você consegue imaginar uma utilidade para esse algorítmo?
 
 Por hoje é só. Na [Aula 8](Aula8.md) você vai aprender um pouco mais sobre as coleções no Python. Até mais!
 
