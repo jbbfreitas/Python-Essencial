@@ -196,7 +196,7 @@ Vamos aos exemplos:
 listaA = [1, 2]
 listaB = [3,4]
 print(listaA + listaB+ [5, 6, 7])
-listaC= ["do", "ré", "mi","fa"]+ ["fa"] * 2
+listaC= ["do", "ré", "mi","fá"]+ ["fá"] * 2
 for e in listaC:
     print e
 
