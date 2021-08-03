@@ -9,7 +9,7 @@ Esse conceito também encontra amparo na proposição do cientista canadense Cra
 
 Dito isto nós podemos dizer que as funções são blocos de código especialistas em realizar determinadas operações (funções) para as quais devemos delegar responsabilidades com o objetivo de dividir para conquistar.
 
-As funções são identificados por um nome, podem receber parâmetros pré-determinados e podem ou não retornar um valor.
+As funções são identificadas por um nome, podem receber parâmetros pré-determinados e podem ou não retornar um valor.
 
 No Python, as funções: 
 - Podem retornar objetos, um ou mais valores, ou simplesmente, não retornar nada.
@@ -83,10 +83,10 @@ um dicionário.
 ```python
 ## Exemplo 42 - Função com parâmetros opcionais
 def dividir_texto(seq, inicio=None, fim=None, inc=None):
-    """Implementação da dividao usando python"""
+    """Implementação da divisão de textos usando python"""
     return seq[inicio:fim:inc]
 
-# Usando a funcão built in split
+# Usando a funcão built-in split
 frase = 'um tigre, dois tigres, tres tigres, quatro tigres'.split()
 print frase
 
@@ -97,6 +97,17 @@ print dividir_texto(frase,inicio=3,fim=5)
 ```
 
 ### Função com número de parâmetros variáveis.
+Em python quando um parâmetro é precedido de um asterisco `*` ou de dois `**`, esse parâmetro tem `poderes especiais`.
+
+::: :pushpin: Importante :::
+
+>  Quando usamos um asterisco `*` antes do parâmetro, como em `*lista`, esse parâmtero será associado a um conjunto variáveis de valores: uma lista de argumentos de tipos distintos.
+
+>  Quando usamos um duplo asterisco `**` antes do parâmetro, como em `**dic2`, o parâmetro será  um dicionário com número variável de parâmetros
+
+
+
+
 
 ```python
 # Exemplo 43 - Função com número de parâmetros opcionais 
@@ -106,13 +117,33 @@ def args_variaveis(*lista1, **dic2):
 
 args_variaveis('um', 'dois', x=1, y=2, z=3)
 args_variaveis('um', 'dois', 'tres', nome='Joao', endereco='Rua das Flores', complemenmto='Apto 1010')
+
+
+def func_args(*args):
+    print "conteúdo de args: {}".format(args)
+    for arg in args:
+        print("enumerando os valores de args: {}").format(arg,arg)
+
+
+func_args(1, 'A', {'valor': 10},3.1416)
 ```
 
-::: :pushpin: Importante :::
+## Resultado:
 
->  *lista será associado a um conjunto variáveis de valores
+> lista1 pode ter números de parâmetros variáveis ('um', 'dois')
 
->  **dic2 é um dicionário com número variável de parâmetros
+> dic2 é um dicionário {'y': 2, 'x': 1, 'z': 3}
+> lista1 pode ter números de parâmetros variáveis ('um', 'dois', 'tres')
+> dic2 é um dicionário {'endereco': 'Rua das Flores', 'complemenmto': 'Apto 1010', 'nome': 'Joao'}
+
+> conteúdo de args: (1, 'A', {'valor': 10}, 3.1416)
+> enumerando os valores de args: 1
+> enumerando os valores de args: A
+> enumerando os valores de args: {'valor': 10}
+> enumerando os valores de args: 3.1416
+
+```
+
 
 ### Função com retorno múltiplo de valores. 
 
