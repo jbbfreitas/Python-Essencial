@@ -4,16 +4,16 @@
 
 Um dicionário é uma lista contendo um conjunto de chaves e valores, isto é, uma chave (identificador) única é associada a um ou mais valores. As chaves devem ser do tipo imutável (podendo ser uma String, Inteiro ou uma Tupla).
 
-Os dicionários são muito similares à notação [JSON](https://www.w3schools.com/python/python_json.asp), utilizada no protocolo REST para comunicação cliente-servidor por intermédio do protocolo HTTP.
+Os dicionários são muito similares à notação [JSON](https://www.w3schools.com/python/python_json.asp), utilizada no protocolo [REST](https://becode.com.br/o-que-e-api-rest-e-restful/) para comunicação cliente-servidor por intermédio do protocolo HTTP.
 
 Os valores dos dicionários são mutáveis, tais como as listas.
 
-O dicionário do Python não fornece garantia de que as chaves estarão ordenadas.
+O dicionário do Python **não fornece garantia** de que as chaves estarão ordenadas.
 
 Exemplo:
 ```python
 # Exemplo 35 - Dicionário 
-
+# Um dicionário que relacionada os dias da semana ao seu respectivo número
 dict1 = {1:"Domingo", 2:"Segunda-Feira", 
          3:"Terça-Feira",4:"Quarta-Feira", 
          5:"Quinta-Feira", 6:"Sexta-Feira", 
@@ -25,7 +25,9 @@ print dict1[2] # Irá imprimir "Segunda-Feira"
 
 ## Um dicionário pode conter outro dicionário
 
-Sim, pode-se usar um valor que também é um dicionário.
+Sim, pode-se usar um valor que também é um dicionário. E isso torna os dicionários ainda mais interessantes, já que um valor pode, na verdade, ser também um dicionário.
+
+Observe o exemplo 36. Nesse exemplo a chave 'Cartao' contém não apenas um valor, mas os valores gastos (no mês por exemplo) em 3 bandeiras: Visa, Master e American.
 
 Exemplo:
 ```python
@@ -161,6 +163,47 @@ Dicionário após excluir o elemento 5:
 |fromkeys()	|Cria um novo dicionário com chaves de seq e valores definidos como valor.|
 |type()	    |Retorna o tipo da variável passada.|
 |cmp()	    |Compara elementos de ambos os ditados.|
+
+```python
+# Exemplo 38-A - 
+# Usando alguns métodos do objeto dicionário 
+dic1 = {}
+dic1 = {"nome":"Joao Bosco","endereco":{"rua":"Rua Fulano de Tal", "numero":"1717", "complemento":"Apto 01"}}
+dic2 = dic1.copy()
+# Cria um dicionário denominado endereco
+localizacao = {"rua":"Rua Fulano de Tal", "numero":"1717", "complemento":"Apto 01", "bairro":"Copa"}
+#Altera o dic2 com o novo endereco
+dic2["endereco"] = localizacao
+print "1)=====Conteúdo de dic1====="
+print dic1
+print "2)=====Conteúdo de dic2, copiado de dic1 e com endereço alterado====="
+print dic2
+print "3)=====Removendo o endereco de dic2, com o método pop()====="
+dic2.pop("endereco") 
+print "4)=====Conteúdo de dic2, após remover o endereco com o método pop()====="
+print dic2
+print "5)=====Adicionando o endereco de dic2, com o método update()====="
+dic2.update({"endereco":localizacao}) #Adiciona novamente a chave endereço contendo o dicionário endereco
+print "6)=====Conteúdo de dic2, após adicionar o endereco com o método uppdate()====="
+print dic2
+```
+
+## Resultados
+```
+
+> 1)=====Conteúdo de dic1=====
+> {'endereco': {'rua': 'Rua Fulano de Tal', 'complemento': 'Apto 01', 'numero': '1717'}, 'nome': 'Joao Bosco'}
+> 2)=====Conteúdo de dic2, copiado de dic1 e com endereço alterado=====
+{'endereco': {'bairro': 'Copa', 'rua': 'Rua Fulano de Tal', 'complemento': 'Apto 01', 'numero': '1717'}, 'nome': 'Joao Bosco'}
+3)=====Removendo o endereco de dic2, com o método pop()=====
+4)=====Conteúdo de dic2, após remover o endereco com o método pop()=====
+{'nome': 'Joao Bosco'}
+5)=====Adicionando o endereco de dic2, com o método update()=====
+6)=====Conteúdo de dic2, após adicionar o endereco com o método uppdate()=====
+{'endereco': {'bairro': 'Copa', 'rua': 'Rua Fulano de Tal', 'complemento': 'Apto 01', 'numero': '1717'}, 'nome': 'Joao Bosco'}
+```
+
+
 
 ::: :pushpin: Importante :::
 Os dicionários são essenciais na utilização do Python na Ciência de Dados. 
