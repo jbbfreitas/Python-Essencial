@@ -215,12 +215,13 @@ print dic2
 
 Um recurso importando quando você utiliza os dicionários, é poder exibir um a um os seus elementos, usando a estrutura de loop `for`. Veja o exemplo abaixo.
 
-# Exemplo 38-B - 
+
 # Usando o for para fazer a iteração em um dicionário
 
 Usando-se o método keys() do dicionário, é possível fazer a iteração para exibir, separadamente, as chaves e os valores.
 
 ```python
+# Exemplo 38-B 
 dic1 = {}
 dic1 = {"nome":"Joao Bosco","endereco":{"rua":"Rua Fulano de Tal", "numero":"1717", "complemento":"Apto 01"}}
 for chave in dic1.keys():
