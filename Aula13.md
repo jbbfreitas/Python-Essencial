@@ -18,6 +18,6 @@ Crie uma estrutura de diretórios conforme a Figura 1.
   <img src="imagens/ArvorePacotes.png" alt="Árvore de pacotes para o exemplo">
 </p>
 <p align="center">
-   <strong>Figura 1-Árvore de Pacotes</strong> 
+   <strong>Figura 1-Árvore de Pacotes do Exemplo</strong> 
 </p>
 
