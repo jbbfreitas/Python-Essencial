@@ -128,18 +128,25 @@ def func_args(*args):
 func_args(1, 'A', {'valor': 10},3.1416)
 ```
 
-## Resultado:
+### Resultado:
 
 > lista1 pode ter números de parâmetros variáveis ('um', 'dois')
 
 > dic2 é um dicionário {'y': 2, 'x': 1, 'z': 3}
+
 > lista1 pode ter números de parâmetros variáveis ('um', 'dois', 'tres')
+
 > dic2 é um dicionário {'endereco': 'Rua das Flores', 'complemenmto': 'Apto 1010', 'nome': 'Joao'}
 
+
 > conteúdo de args: (1, 'A', {'valor': 10}, 3.1416)
+
 > enumerando os valores de args: 1
+
 > enumerando os valores de args: A
+
 > enumerando os valores de args: {'valor': 10}
+
 > enumerando os valores de args: 3.1416
 
 ```
