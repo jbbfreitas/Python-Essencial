@@ -146,7 +146,8 @@ Dicionário após excluir o elemento 5:
 {0: 'Rei Pele', 3: 10, 'dic2': (2, 3, 4)}
 ```
 
-## Dicionários: outros métodos importantes:
+## Tabela 1 - Dicionários: outros métodos importantes:
+
 
 | métodos       | Descrição             |
 | ------------- |---------------------|
@@ -191,6 +192,7 @@ print dic2
 ## Resultados
 >
 >1)=====Conteúdo de dic1=====
+
 > {'endereco': {'rua': 'Rua Fulano de Tal', 'complemento': 'Apto 01', 'numero': '1717'}, 'nome': 'Joao Bosco'}
 
 > 2)=====Conteúdo de dic2, copiado de dic1 e com endereço alterado=====
@@ -211,8 +213,13 @@ print dic2
 
 
 
+
 ::: :pushpin: Importante :::
+
 Os dicionários são essenciais na utilização do Python na Ciência de Dados. 
+
+#### Desafio 1 :innocent:
+Tomando como base o Exemplo 38-A, crie um dicionário e experimente outros métodos da Tabela 1.
 
 
 Por hoje é só. Na [Aula 10](Aula10.md) você vai aprender a criar funções no Python. Até mais!
