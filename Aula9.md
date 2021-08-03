@@ -159,7 +159,7 @@ Dicionário após excluir o elemento 5:
 |str()	    |Produz uma representação de sequência imprimível de um dicionário.|
 |update()	|Adiciona pares de valores-chave do dicionário|
 |keys()	    |Retorna a lista de chaves do dicionário|
-|items()	|Retorna uma lista dos pares de tuplas do ditado (chave, valor)|
+|items()	|Retorna uma lista dos pares de tuplas do dicionário (chave, valor)|
 |has_key()	|Retorna `True` se há chave no dicionário dict, `False` caso contrário|
 |fromkeys()	|Cria um novo dicionário com chaves de seq e valores definidos como valor.|
 |type()	    |Retorna o tipo da variável passada.|
@@ -211,6 +211,23 @@ print dic2
 
 >{'endereco': {'bairro': 'Copa', 'rua': 'Rua Fulano de Tal', 'complemento': 'Apto 01', 'numero': '1717'}, 'nome': 'Joao Bosco'}
 
+## Fazendo uma iteração em um dicionário
+
+Um recurso importando quando você utiliza os dicionários, é poder exibir um a um os seus elementos, usando a estrutura de loop `for`. Veja o exemplo abaixo.
+
+# Exemplo 38-B - 
+# Usando o for para fazer a iteração em um dicionário
+
+Usando-se o método keys() do dicionário, é possível fazer a iteração para exibir, separadamente, as chaves e os valores.
+
+```python
+dic1 = {}
+dic1 = {"nome":"Joao Bosco","endereco":{"rua":"Rua Fulano de Tal", "numero":"1717", "complemento":"Apto 01"}}
+for chave in dic1.keys():
+    print "Chave->"+chave
+    print "Valores->"+str(dic1[chave])
+    print " "
+```
 
 
 
