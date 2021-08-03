@@ -192,15 +192,22 @@ print dic2
 >
 >1)=====Conteúdo de dic1=====
 > {'endereco': {'rua': 'Rua Fulano de Tal', 'complemento': 'Apto 01', 'numero': '1717'}, 'nome': 'Joao Bosco'}
+
 > 2)=====Conteúdo de dic2, copiado de dic1 e com endereço alterado=====
+
 >{'endereco': {'bairro': 'Copa', 'rua': 'Rua Fulano de Tal', 'complemento': 'Apto 01', 'numero': '1717'}, 'nome': 'Joao Bosco'}
+
 >3)=====Removendo o endereco de dic2, com o método pop()=====
+
 >4)=====Conteúdo de dic2, após remover o endereco com o método pop()=====
+
 >{'nome': 'Joao Bosco'}
+
 >5)=====Adicionando o endereco de dic2, com o método update()=====
+
 >6)=====Conteúdo de dic2, após adicionar o endereco com o método uppdate()=====
+
 >{'endereco': {'bairro': 'Copa', 'rua': 'Rua Fulano de Tal', 'complemento': 'Apto 01', 'numero': '1717'}, 'nome': 'Joao Bosco'}
-```
 
 
 
