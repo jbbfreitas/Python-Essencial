@@ -4,6 +4,8 @@
 
 Um dicionário é uma lista contendo um conjunto de chaves e valores, isto é, uma chave (identificador) única é associada a um ou mais valores. As chaves devem ser do tipo imutável (podendo ser uma String, Inteiro ou uma Tupla).
 
+Os dicionários são muito similares à notação [JSON](https://www.w3schools.com/python/python_json.asp), utilizada no protocolo REST para comunicação cliente-servidor por intermédio do protocolo HTTP.
+
 Os valores dos dicionários são mutáveis, tais como as listas.
 
 O dicionário do Python não fornece garantia de que as chaves estarão ordenadas.
