@@ -69,6 +69,19 @@ Quando usamos pacotes pode ser necessário saber quais os subpacotes, módulos e
 
 Essa variável é usada pelo comando dir() para mostrar o diretório de subpacotes e módulos de um determinado pacote. É responsabilidade do desenvolvedor atualizar essa variável sempre que fizer alterações nos subpacotes ou módulos. 
 
+```python
+#Exemplo da variável __all__ no arquivo __init__.py do pacote_utilitario
+__all__ = ['contabil', 'estatistica','financeira','matematica']
+
+```
+
+```python
+#Exemplo da variável __all__ no arquivo __init__.py do subpacote matematica
+__all__ = ['algebra', 'aritmetica','diferencial','integral']
+
+````
+
+
 ::: :pushpin: Importante :::
 
 As alterações realizadas nos subpacotes ou módulos só ficam visiveis após compilação. Para ter acesso às alterações em pacotes e módulos é necessário recompilar, criando um novo arquivo com extensão `pyc`.
