@@ -21,3 +21,57 @@ Crie uma estrutura de diretórios conforme a Figura 1.
    <strong>Figura 1-Árvore de Pacotes do Exemplo</strong> 
 </p>
 
+Na verdade todos os arquivos estão vazios, com excessão do `aritmetica.py`, pois este é apenas um exemplo para você entender melhor o conceito por detrás dos pacotes python.
+
+No arquivo `aritmetica.py` digite:
+
+```python
+# _*_ coding: utf-8 _*_
+
+def soma(n1,n2):
+    return n1+n2
+
+def divisao(n1,n2):
+    return n1/n2    
+
+```
+### Existem 3 formas de acessar 
+
+```python
+#Forma 1- usar o from com o name space completo e em seguida import *
+#Mais simples mas deve ser evitada pois pode causar colisão de nomes
+from pacote_utilitario.matematica.aritmetica import * 
+print soma(10,20)
+```
+
+```python
+#Forma 2- usar o import * e invocar o metodo usando o name space completo
+#Muito trabalhosa
+from pacote_utilitario import *
+print matematica.aritmetica.soma(10,20)
+```
+
+```python
+#Forma 3- usar o name space completo e dar um apelido
+#Um pouco mais trabalhosa mas preferível pois documenta melhor e evita colisão de nomes
+import  pacote_utilitario.matematica.aritmetica as arit
+print arit.soma(10,20)
+print arit.divisao(5,10.)
+```
+
+::: :pushpin: Importante :::
+
+>Prefira sempre a forma 3 para  acesso a funcoes de seus módulos por questões de clareza e legibilidade do seu código 
+
+### Para que serve o comando dir()
+
+Quando usamos pacotes pode ser necessário saber quais os subpacotes, módulos e funções estão disponíveis. Para isso deve-se criar no arquivo `__init__.py` de cada pacote ou módulo, uma variável denominada `__all__` que é uma lista de todos os subpacotes ou módulos que pertencem àquele pacote.
+
+Essa variável é usada pelo comando dir() para mostrar o diretório de subpacotes e módulos de um determinado pacote. É responsabilidade do desenvolvedor atualizar essa variável sempre que fizer alterações nos subpacotes ou módulos. 
+
+::: :pushpin: Importante :::
+
+As alterações realizadas nos subpacotes ou módulos só ficam visiveis após compilação. Para ter acesso às alterações em pacotes e módulos é necessário recompilar, criando um novo arquivo com extensão `pyc`.
+
+Este é o fim deste curso de Python-Essencial. Para voltar ao início [Clique Aqui](README.md). Até o próximo curso!
+
